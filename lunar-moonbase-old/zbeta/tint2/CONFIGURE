@@ -1,0 +1,1 @@
+mquery ENBL_BAT "Enable battery status plugin?"       y "-DENABLE_BATTERY=ON"       "-DENABLE_BATTERY=OFF"

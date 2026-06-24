@@ -1,0 +1,4 @@
+depends  %JPEG
+depends  tiff
+depends  libpng
+depends  patch

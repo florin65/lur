@@ -1,0 +1,14 @@
+          MODULE=asclock
+         VERSION=2.0.12
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.tigr.net/afterstep/download/$MODULE/
+      SOURCE_VFY=sha256:70df9bd991bc707c0fdf76ea1acbeff5924e9ae0b0704feb46afa591030704e6
+        WEB_SITE=http://www.asclock.org/
+         ENTERED=20011121
+         UPDATED=20011121
+           SHORT="AfterStep digital clock"
+
+cat << EOF
+A swallowable applet shows clock and calendar.
+Supports themes for different looks.
+EOF

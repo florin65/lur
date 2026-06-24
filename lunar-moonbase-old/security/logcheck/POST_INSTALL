@@ -1,0 +1,3 @@
+echo " "                                              &&
+echo "Don't forget to setup a cronjob for logcheck!"  &&
+echo " "

@@ -1,0 +1,19 @@
+          MODULE=smplayer
+         VERSION=19.1.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://smplayer.sourceforge.net
+         ENTERED=20090311
+         UPDATED=20190108
+           SHORT="The complete front-end for MPlayer"
+
+cat << EOF
+SMPlayer intends to be a complete front-end for MPlayer, from basic features
+like playing videos, DVDs, and VCDs to more advanced features like support for
+MPlayer filters and more.
+One of the most interesting features of SMPlayer: it remembers the settings of
+all files you play. So you start to watch a movie but you have to leave.
+don't worry, when you open that movie again it will resume at the same point you
+left it, and with the same settings: audio track, subtitles, volume.
+EOF

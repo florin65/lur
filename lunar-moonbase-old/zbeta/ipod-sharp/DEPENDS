@@ -1,0 +1,3 @@
+depends libipoddevice
+depends ndesk-dbus-glib
+depends podsleuth

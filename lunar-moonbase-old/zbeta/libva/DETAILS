@@ -1,0 +1,16 @@
+          MODULE=libva
+         VERSION=1.1.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://cgit.freedesktop.org/libva/snapshot
+      SOURCE_VFY=sha1:875b27ea44dca68362fd8b61e15a6bbad8546044
+        WEB_SITE=http://www.freedesktop.org/wiki/Software/vaapi
+         ENTERED=20110211
+         UPDATED=20120608
+           SHORT="Video Acceleration (VA) API for Linux"
+
+cat << EOF
+The main motivation for VAAPI (Video Acceleration API) is to enable
+hardware-accelerated video decode/encode at various entry-points (VLD,
+IDCT, Motion Compensation etc.) for the prevailing coding standards
+today (MPEG-2, MPEG-4 ASP/H.263, MPEG-4 AVC/H.264, and VC-1/VMW3).
+EOF

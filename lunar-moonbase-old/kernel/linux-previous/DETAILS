@@ -1,0 +1,30 @@
+          MODULE=linux-previous
+         VERSION=3.3.8
+            BASE=$(echo $VERSION | cut -d. -f1,2)
+          SOURCE=linux-$BASE.tar.xz
+         SOURCE2=patch-$VERSION.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/linux-$VERSION
+   SOURCE_URL[0]=$KERNEL_URL/pub/linux/kernel/v3.x
+   SOURCE_URL[1]=http://www.kernel.org/pub/linux/kernel/v3.x
+  SOURCE2_URL[0]=$KERNEL_URL/pub/linux/kernel/v3.x
+  SOURCE2_URL[1]=http://www.kernel.org/pub/linux/kernel/v3.x
+      SOURCE_VFY=sha1:c5dfb129d53b5a03e0533330afa9d042d7bd3a6b
+     SOURCE2_VFY=sha1:9470171a7dcd2da10efa174b23c568a061901a3a
+        WEB_SITE=http://www.kernel.org
+         ENTERED=20041019
+         UPDATED=20120608
+           SHORT="The core of a Linux GNU Operating System"
+     KEEP_SOURCE=on
+           TMPFS=off
+
+cat << EOF
+This is the previous released Linux kernel module for Lunar Linux distro.
+
+Linux is a clone of the Unix kernel, written from scratch by Linus
+Torvalds with assistance from a loosely-knit team of hackers across the
+Net. It aims towards POSIX and Single UNIX Specification compliance. It
+has all the features you would expect in a modern fully-fledged Unix
+kernel, including true multitasking, virtual memory, shared libraries,
+demand loading, shared copy-on-write executables, proper memory
+management, and TCP/IP networking.
+EOF

@@ -1,0 +1,16 @@
+          MODULE=buffer
+         VERSION=1.19
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=buffer_1.19-7.diff.patch.bz2
+      SOURCE_URL=http://www.hello-penguin.com/software/$MODULE/
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha256:c5cc131901f646290c7ec704e0832b13585a78b19a5650e098364b293c12424e
+     SOURCE2_VFY=sha256:33d6b97f869fb1bd36ff21e055897d78b2889e1375a595eab7bd4ac39530b4d5
+        WEB_SITE=http://www.hello-penguin.com/software.htm
+         ENTERED=20030226
+         UPDATED=20030226
+           SHORT="Utility to buffer tape and network I/O"
+
+cat << EOF
+buffer is a utility to buffer tape and network I/O.
+EOF

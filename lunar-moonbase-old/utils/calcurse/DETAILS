@@ -1,0 +1,16 @@
+          MODULE=calcurse
+         VERSION=3.1.4
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://calcurse.org/files
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://calcurse.org
+         ENTERED=20101009
+         UPDATED=20130210
+           SHORT="text-based calendar and scheduling application"
+
+cat << EOF
+Calcurse is a text-based calendar and scheduling application. It helps
+keep track of events, appointments and everyday tasks. A configurable
+notification system reminds its user of upcoming deadlines and the
+curses based interface can be customized to suit users needs.
+EOF

@@ -1,0 +1,19 @@
+          MODULE=apmd
+         VERSION=3.2.2
+          SOURCE=${MODULE}_${VERSION}.orig.tar.gz
+         SOURCE2=${MODULE}_${VERSION}-14.diff.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION.orig
+      SOURCE_URL=ftp://ftp.debian.org/debian/pool/main/a/apmd/
+      SOURCE_VFY=sha256:7f7d9f60b7766b852881d40b8ff91d8e39fccb0d1d913102a5c75a2dbb52332d
+     SOURCE2_URL=ftp://ftp.debian.org/debian/pool/main/a/apmd/
+     SOURCE2_VFY=sha256:7905ff96be93d725544d0040e425c42f9c05580db3c272f11cff75b9aa89d430
+        WEB_SITE=http://www.worldvisions.ca/~apenwarr/apmd/
+         ENTERED=20020203
+         UPDATED=20040320
+           SHORT="Linux apmd for laptop battery and power status"
+
+cat << EOF
+The apmd package is a set of user-level programs to control the Advanced
+Power Management system found in all modern laptop computers and most modern
+desktops.
+EOF

@@ -1,0 +1,20 @@
+          MODULE=ypserv
+         VERSION=2.31
+          SOURCE=$MODULE-$VERSION.tar.bz2
+         SOURCE2=$MODULE-$VERSION-confpost.patch.bz2
+      SOURCE_URL=http://www.linux-nis.org/download/$MODULE
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha1:
+     SOURCE2_VFY=sha1:d26b06ccc7d98256336585271b5b13d4b13c5c14
+        WEB_SITE=http://www.linux-nis.org/nis/ypserv/index.html
+         ENTERED=20011022
+         UPDATED=20130413
+           SHORT="NIS provides a network lookup service using databases and processes"
+
+cat << EOF
+The Network Information Service (NIS) provides a simple network lookup
+service consisting of databases and processes. It was formerly known as
+Sun Yellow Pages (YP). The functionality of the two remains the same,
+only the name has changed. Its purpose is to provide information, that
+has to be known throughout the network, to all machines on the network.
+EOF

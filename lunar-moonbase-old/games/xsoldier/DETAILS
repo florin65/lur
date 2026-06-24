@@ -1,0 +1,13 @@
+          MODULE=xsoldier
+         VERSION=1.8
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.interq.or.jp/libra/oohara/$MODULE/$MODULE-$VERSION.tar.gz
+      SOURCE_VFY=sha1:51ef7a55d0062015c54b5e31263875ba16068e10
+        WEB_SITE=http://www.interq.or.jp/libra/oohara/xsoldier/
+         ENTERED=20020508
+         UPDATED=20120606
+           SHORT="Xwindows space shooting game."
+
+cat << EOF
+xsoldier is a Xwindows space shooting game.
+EOF

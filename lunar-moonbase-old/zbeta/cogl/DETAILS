@@ -1,0 +1,17 @@
+          MODULE=cogl
+         VERSION=1.10.2
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=http://source.clutter-project.org/sources/cogl/${VERSION%.*}
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_VFY=sha1:3d4a8d538b4308e58075049808b36aff48f33841
+        WEB_SITE=http://www.clutter-project.org
+         ENTERED=20110617
+         UPDATED=20120506
+           SHORT="3D graphics hardware rendering library"
+
+cat <<EOF
+Cogl is a small open source library for using 3D graphics hardware for
+rendering. The API departs from the flat state machine style of OpenGL and is
+designed to make it easy to write orthogonal components that can render without
+stepping on each others toes.
+EOF

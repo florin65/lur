@@ -1,0 +1,15 @@
+          MODULE=OpenSceneGraph
+         VERSION=3.2.0
+          SOURCE=$MODULE-$VERSION.zip
+      SOURCE_URL=http://www.openscenegraph.org/downloads/stable_releases/OpenSceneGraph-${VERSION}/source
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://www.openscenegraph.org
+         ENTERED=20100605
+         UPDATED=20130726
+           SHORT="A high performance real-time graphics toolkit"
+
+cat << EOF
+The OpenSceneGraph is an open source high performance 3D graphics toolkit,
+used by application developers in fields such as visual simulation, games,
+virtual reality, scientific visualization and modelling.
+EOF

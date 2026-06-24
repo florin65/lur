@@ -1,0 +1,18 @@
+          MODULE=rpm-old
+         VERSION=4.10.0
+          SOURCE=rpm-$VERSION.tar.bz2
+      SOURCE_URL=http://rpm.org/releases/rpm-4.10.x
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/rpm-$VERSION
+      SOURCE_VFY=sha1:d78f19194066c3895f91f58dc84e3aad69f0b02c
+        WEB_SITE=http://www.rpm.org
+         ENTERED=20021102
+         UPDATED=20120527
+           PSAFE=no
+           SHORT="Redhat command line driven package management system"
+cat << EOF
+The RPM Package Manager (RPM) is a powerful command line driven package
+management system capable of installing, uninstalling, verifying, querying,
+and updating software packages. Each software package consists of an archive
+of files along with information about the package like its version, a
+description, etc.
+EOF

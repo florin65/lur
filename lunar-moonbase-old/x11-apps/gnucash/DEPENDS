@@ -1,0 +1,9 @@
+depends  intltool
+depends  gtkhtml
+depends  goffice
+depends  slib
+depends  libdbi
+depends  webkitgtk
+depends  desktop-file-utils
+
+optional_depends  aqbanking  "--enable-aqbanking" "" "enables banking interface"

@@ -1,0 +1,13 @@
+          MODULE=miro
+         VERSION=6.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://ftp.osuosl.org/pub/pculture.org/miro/src
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://www.getmiro.com
+         ENTERED=20080208
+         UPDATED=20121008
+           SHORT="Video library and player"
+
+cat << EOF
+Video library and player.
+EOF

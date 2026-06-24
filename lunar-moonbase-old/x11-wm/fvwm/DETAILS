@@ -1,0 +1,17 @@
+          MODULE=fvwm
+         VERSION=2.6.9
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=ftp://ftp.fvwm.org/pub/fvwm/version-2
+       SOURCE_VFY=sha256:
+        WEB_SITE=http://www.fvwm.org
+         ENTERED=20010922
+         UPDATED=20190906
+           SHORT="Multiple large virtual desktop X11 windows manager"
+
+cat << EOF
+FVWM is a multiple large virtual desktop window manager originally
+derived from twm. FVWM is intended to have a small memory footprint and
+a rich feature set, be extremely customizable and extendable and have a
+high degree of Motif mwm compatibility. FVWM is highly extensible
+through its module interface.
+EOF

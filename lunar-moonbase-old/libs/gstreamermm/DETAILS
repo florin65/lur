@@ -1,0 +1,16 @@
+          MODULE=gstreamermm
+           MAJOR=0.10
+         VERSION=${MAJOR}.10.1
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=$GNOME_URL/sources/gstreamermm/${MAJOR}/
+      SOURCE_VFY=sha1:50cd1cdae069db7e6a5b2ff32ae98b70f3ba16c1
+        WEB_SITE=http://linux.softpedia.com/get/Programming/Libraries/gstreamermm-34730.shtml
+         ENTERED=20101110
+         UPDATED=20120411
+           SHORT="C++ bindings for GStreamer"
+
+cat << EOF
+gstreamermm provides C++ bindings for the GStreamer streaming multimedia
+library (http://gstreamer.freedesktop.org).  With gstreamermm it is possible to
+develop applications that work with multimedia in C++.
+EOF

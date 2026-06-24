@@ -1,0 +1,17 @@
+         MODULE=libeXosip2
+        VERSION=4.1.0
+         SOURCE=$MODULE-$VERSION.tar.gz
+     SOURCE_URL=http://download.savannah.gnu.org/releases/exosip
+      SOURCE_VFY=sha256:
+       WEB_SITE=http://savannah.nongnu.org/projects/exosip
+        ENTERED=20080505
+        UPDATED=20150316
+          SHORT="An extension library for SIP"
+
+cat << EOF
+eXosip is a library that hides the complexity of using the SIP protocol
+for multimedia session establishment. This protocol is mainly to be
+used by VoIP telephony applications (end-point or conference server) but
+might be also useful for any applications that wish to establish
+sessions like multiplayer games.
+EOF

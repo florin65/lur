@@ -1,0 +1,16 @@
+          MODULE=emelfm2
+         VERSION=0.9.1
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://emelfm2.net/rel
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://emelfm2.net
+         ENTERED=20050304
+         UPDATED=20140305
+           SHORT="A file manager implementing the popular two-pane design"
+
+cat << EOF
+emelFM is a file manager that implements the popular two-pane design.
+It features a simple GTK+ interface, a flexible filetyping scheme,
+and a built-in command line for executing commands without opening an
+xterm.
+EOF

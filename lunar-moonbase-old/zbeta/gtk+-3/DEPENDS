@@ -1,0 +1,6 @@
+depends  glib-2
+depends  cairo
+depends  pango
+depends  atk
+depends  gdk-pixbuf
+depends  gtk+-2

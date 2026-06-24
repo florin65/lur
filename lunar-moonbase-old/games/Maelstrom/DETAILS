@@ -1,0 +1,22 @@
+           MODULE=Maelstrom
+         VERSION=3.0.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=$MODULE-$VERSION-gcc34.patch.bz2
+         SOURCE3=$MODULE-$VERSION-security.patch.bz2
+      SOURCE_URL=http://www.libsdl.org/projects/Maelstrom/src/
+     SOURCE2_URL=$PATCH_URL
+     SOURCE3_URL=$PATCH_URL
+      SOURCE_VFY=sha1:2036fb814db2263ca44ebe3397dbed66720249b7
+     SOURCE2_VFY=sha1:538723cfebb31d50ce426ef501fc5ac7549f8940
+     SOURCE3_VFY=sha1:e483c019704a00d38bc3e9227d1d5708f4bed778
+        WEB_SITE=http://www.libsdl.org/projects/Maelstrom/
+         ENTERED=20011215
+         UPDATED=20120606
+           SHORT="excellent asteroids-type game"
+
+cat << EOF
+Maelstrom is an excellent Asteroids-type game with sound and 3D objects.
+It is fantastic for casual playing, it plays over a network and has
+excellent graphics. It compiles easily under both Linux and Solaris and
+there are binaries for several UNIXs available.
+EOF

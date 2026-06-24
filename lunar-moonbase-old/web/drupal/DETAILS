@@ -1,0 +1,16 @@
+          MODULE=drupal
+         VERSION=9.0.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://ftp.osuosl.org/pub/drupal/files/projects
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://drupal.org
+         ENTERED=20070605
+         UPDATED=20200605
+           SHORT="A content management platform"
+
+cat << EOF
+Drupal is a free software package that allows an individual or a community of
+users to easily publish, manage and organize a wide variety of content on a
+website. Tens of thousands of people and organizations have used Drupal to
+power scores of different web sites.
+EOF

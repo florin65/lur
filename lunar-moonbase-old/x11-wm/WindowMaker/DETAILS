@@ -1,0 +1,19 @@
+          MODULE=WindowMaker
+         VERSION=0.95.7
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.windowmaker.info/pub/source/release
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.windowmaker.info
+         ENTERED=20010922
+         UPDATED=20150903
+           PSAFE=no
+           SHORT="X11 windows manager, similar to NeXTSTEP"
+
+cat << EOF
+Window Maker is an X11 window manager designed to give additional
+integration support to the GNUstep Desktop Environment. In every way
+possible, it reproduces the elegant look and feel of the NeXTSTEP[tm]
+GUI. It is fast, feature rich, easy to configure, and easy to use. In
+addition, Window Maker works with GNOME and KDE, making it one of the
+most useful and universal window managers available.
+EOF

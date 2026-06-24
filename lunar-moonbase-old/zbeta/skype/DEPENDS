@@ -1,0 +1,5 @@
+depends qt4
+depends libXScrnSaver
+
+optional_depends v4l-utils  "" "" "for webcam support"
+optional_depends pulseaudio "" "" "for pulseaudio support"

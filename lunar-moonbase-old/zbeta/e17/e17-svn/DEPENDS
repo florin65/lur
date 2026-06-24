@@ -1,0 +1,14 @@
+depends  edje
+depends  efreet
+depends  e_dbus
+depends  eeze
+
+optional_depends  "gettext"          \
+                  ""                 \
+                  "--disable-nls"    \
+                  "for internationalization support"
+
+optional_depends  "Linux-PAM"                     \
+                  "--enable-pam"                  \
+                  "--disable-pam"                 \
+                  "for PAM support in desktop locking"

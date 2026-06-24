@@ -1,0 +1,22 @@
+          MODULE=jwm
+         VERSION=2.3.5
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=http://joewing.net/projects/jwm/releases/
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://joewing.net/projects/jwm/
+         ENTERED=20160123
+         UPDATED=20160328
+           SHORT="A fast lightweight X11 window manager"
+
+cat << EOF
+JWM (also known as Joe's Window Manager) is a highly customizable, free and
+lightweight window manager implemented in C and designed especially for the
+X Window System, supporting all POSIX-compliant operating systems, including
+GNU/Linux.
+The software is written in the C programming language and uses only the Xlib
+library, in order to provide a small footprint and a good window manager for
+less powerful systems (e.g. Raspberry Pi) or computers with old or semi-old
+hardware components. JWM is extremely fast, versatile and low on resources,
+providing users with a traditional look and feel, similar to the one of
+Windows XP.
+EOF

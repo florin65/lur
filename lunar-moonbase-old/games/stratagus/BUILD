@@ -1,0 +1,5 @@
+OPTS+=" -DENABLE_USEGAMEDIR=ON \
+	-DENABLE_DOC=OFF \
+	-DENABLE_STRIP=ON"
+
+default_cmake_build

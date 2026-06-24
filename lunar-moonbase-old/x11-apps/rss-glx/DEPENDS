@@ -1,0 +1,10 @@
+depends ImageMagick
+depends glew
+depends glu
+
+optional_depends xscreensaver "" "" "for xscreensaver integration"
+
+optional_depends openal \
+                 "--enable-sound" \
+                 "--disable-sound" \
+                 "for sound support in some hacks"

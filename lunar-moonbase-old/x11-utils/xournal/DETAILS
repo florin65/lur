@@ -1,0 +1,18 @@
+          MODULE=xournal
+         VERSION=0.4.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha1:4ebe79e3df7155d2a09c341537a639ac2332d4c8
+        WEB_SITE=http://xournal.sourceforge.net
+         ENTERED=20120529
+         UPDATED=20120529
+           SHORT="An X notetaking journal using a stylus"
+cat << EOF
+Xournal is an application for notetaking, sketching,
+keeping a journal using a stylus. It is similar to
+M$ Windows Journal or to other alternatives such as Jarnal
+and Gournal.
+
+Xournal aims to provide superior graphical quality
+(subpixel resolution) and overall functionality.
+EOF

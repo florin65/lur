@@ -1,0 +1,6 @@
+depends swig
+depends subversion
+depends Genshi
+
+optional_depends pytz "" "" "for the world timezone definitions"
+optional_depends Pygments "" "" "for syntax highlighting"

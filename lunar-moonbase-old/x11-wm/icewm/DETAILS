@@ -1,0 +1,15 @@
+          MODULE=icewm
+         VERSION=3.8.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.icewm.org
+         ENTERED=20010922
+         UPDATED=20250709
+           SHORT="X window manager"
+
+cat << EOF
+IceWM is a window manager designed for speed, usability, and
+consistency. It is able to emulate the looks of Motif, OS/2, and
+Windows, and allows you to have a customizable look using pixmaps.
+EOF

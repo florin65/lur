@@ -1,0 +1,15 @@
+          MODULE=rdesktop
+         VERSION=1.8.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.rdesktop.org
+         ENTERED=20010922
+         UPDATED=20141117
+           SHORT="A Windows terminal services client"
+
+cat << EOF
+rdesktop is used to connect to windows terminal servers for those
+desktop superior group of people using Un*x, but still need to connect
+to that "you know which" eye-candy strangled GUI based OS.
+EOF

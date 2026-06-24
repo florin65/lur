@@ -1,0 +1,61 @@
+          MODULE=TORCS
+         VERSION=1.3.7
+          SOURCE=$MODULE-$VERSION-src.tgz
+         SOURCE1=$MODULE-$VERSION-data.tgz
+         SOURCE2=$MODULE-$VERSION-data-cars-extra.tgz
+         SOURCE3=$MODULE-$VERSION-data-cars-nascar.tgz
+         SOURCE4=$MODULE-$VERSION-data-cars-Patwo-Design.tgz
+         SOURCE5=$MODULE-$VERSION-data-cars-VM.tgz
+         SOURCE6=$MODULE-$VERSION-data-cars-kcendra-gt.tgz
+         SOURCE7=$MODULE-$VERSION-data-cars-kcendra-roadsters.tgz
+         SOURCE8=$MODULE-$VERSION-data-cars-kcendra-sport.tgz
+         SOURCE9=$MODULE-$VERSION-data-tracks-dirt.tgz
+        SOURCE10=$MODULE-$VERSION-data-tracks-oval.tgz
+        SOURCE11=$MODULE-$VERSION-data-tracks-road.tgz
+        SOURCE12=$MODULE-$VERSION-src-robots-berniw.tgz
+        SOURCE13=$MODULE-$VERSION-src-robots-base.tgz
+        SOURCE14=$MODULE-$VERSION-src-robots-bt.tgz
+        SOURCE15=$MODULE-$VERSION-src-robots-olethros.tgz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/torcs-$VERSION
+      SOURCE_URL=$SFORGE_URL/torcs
+     SOURCE1_URL=$SFORGE_URL/torcs
+     SOURCE2_URL=$SFORGE_URL/torcs
+     SOURCE3_URL=$SFORGE_URL/torcs
+     SOURCE4_URL=$SFORGE_URL/torcs
+     SOURCE5_URL=$SFORGE_URL/torcs
+     SOURCE6_URL=$SFORGE_URL/torcs
+     SOURCE7_URL=$SFORGE_URL/torcs
+     SOURCE8_URL=$SFORGE_URL/torcs
+     SOURCE9_URL=$SFORGE_URL/torcs
+    SOURCE10_URL=$SFORGE_URL/torcs
+    SOURCE11_URL=$SFORGE_URL/torcs
+    SOURCE12_URL=$SFORGE_URL/torcs
+    SOURCE13_URL=$SFORGE_URL/torcs
+    SOURCE14_URL=$SFORGE_URL/torcs
+    SOURCE15_URL=$SFORGE_URL/torcs
+      SOURCE_VFY=sha256:
+     SOURCE1_VFY=sha256:
+     SOURCE2_VFY=sha256:
+     SOURCE3_VFY=sha256:
+     SOURCE4_VFY=sha256:
+     SOURCE5_VFY=sha256:
+     SOURCE6_VFY=sha256:
+     SOURCE7_VFY=sha256:
+     SOURCE8_VFY=sha256:
+     SOURCE9_VFY=sha256:
+    SOURCE10_VFY=sha256:
+    SOURCE11_VFY=sha256:
+    SOURCE12_VFY=sha256:
+    SOURCE13_VFY=sha256:
+    SOURCE14_VFY=sha256:
+    SOURCE15_VFY=sha256:
+        WEB_SITE=http://torcs.sourceforge.net
+         ENTERED=20010926
+         UPDATED=20160810
+           SHORT="3D racing cars simulator"
+
+cat << EOF
+TORCS is a 3D racing cars simulator using OpenGL. The goal is to have
+programmed robot drivers racing against each others. Nevertheless, a
+joystick interface is present in order to drive yourself.
+EOF

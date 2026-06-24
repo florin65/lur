@@ -1,0 +1,16 @@
+          MODULE=ClanLib
+         VERSION=4.0.0
+          SOURCE=$MODULE-$VERSION.tgz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_URL=http://www.clanlib.org/download/releases-4.0
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://clanlib.org
+         ENTERED=20011105
+         UPDATED=20150514
+           SHORT="Multi-Platform game development library"
+
+cat << EOF
+Clanlib is a medium level development kit. At its lowest levell it
+provides a platform independent way of dealing with display, sound,
+input, networking, files, threadding and such.
+EOF

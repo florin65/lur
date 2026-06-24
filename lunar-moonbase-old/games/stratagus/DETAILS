@@ -1,0 +1,17 @@
+          MODULE=stratagus
+         VERSION=2.4.3
+          SOURCE=$MODULE-$VERSION-src.tar.gz
+ SOURCE_URL_FULL=https://github.com/Wargus/stratagus/archive/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:754fb2ab1af8f5aa27d7bfb6c3aa3ff6f8503b412743abb92d0a16202e512459
+        WEB_SITE=http://stratagus.sourceforge.net
+            TYPE=cmake
+         ENTERED=20040719
+         UPDATED=20200511
+           SHORT="RTS gaming engine"
+
+cat <<EOF
+Stratagus is a free cross-platform real-time strategy gaming engine.
+It is possible to play against human opponents over LAN, internet, or
+against the computer. It successfully runs under Linux, BSD, MacOS/X,
+MacOS/Darwin and MS Windows.
+EOF

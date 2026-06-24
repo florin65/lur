@@ -1,0 +1,15 @@
+          MODULE=rosegarden
+         VERSION=14.02
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/rosegarden/$VERSION
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://www.rosegardenmusic.com
+         ENTERED=20100713
+         UPDATED=20140309
+           SHORT="audio and MIDI environment"
+
+cat << EOF
+Rosegarden is a well-rounded audio and MIDI sequencer, score editor,
+and general-purpose music composition and editing environment.
+EOF
+

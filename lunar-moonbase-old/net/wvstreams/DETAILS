@@ -1,0 +1,20 @@
+          MODULE=wvstreams
+         VERSION=4.6.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=$MODULE-openssl-1.0.0.patch
+         SOURCE3=$MODULE-$VERSION-glibc212.patch.bz2
+      SOURCE_URL=http://$MODULE.googlecode.com/files
+     SOURCE2_URL=$PATCH_URL
+     SOURCE3_URL=$PATCH_URL
+      SOURCE_VFY=sha1:1431efc3f46a13b6a8dbcad4123e19473369f767
+     SOURCE2_VFY=sha1:f1ff465721a9c0374c10b0ac34336ee4d83ce453
+     SOURCE3_VFY=sha1:b2aaa7d51bab1d44b1dd51c803770152c2286bc7
+        WEB_SITE=http://code.google.com/p/wvstreams
+         ENTERED=20020425
+         UPDATED=20100410
+           SHORT="A networking C++ library"
+PSAFE=no
+cat << EOF
+WvStreams aims to be an efficient, secure, and easy-to-use library
+for doing network applications development.
+EOF

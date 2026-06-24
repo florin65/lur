@@ -1,0 +1,14 @@
+          MODULE=fish
+         VERSION=2.4.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://fishshell.org/files/$VERSION
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.fishshell.org
+         ENTERED=20080229
+         UPDATED=20161110
+           SHORT="An user friendly shell designed for interactive use"
+
+cat << EOF
+fish (friendly interactive shell) is a shell designed to be easy to use,
+designed for UNIX like systems.
+EOF

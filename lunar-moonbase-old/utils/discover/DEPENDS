@@ -1,0 +1,5 @@
+depends discover-data
+depends expat
+depends check
+
+optional_depends "docbook-sgml" "" "" "to install manpages"

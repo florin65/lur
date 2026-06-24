@@ -1,0 +1,3 @@
+depends libdrm
+depends libva
+depends intel-gen4asm

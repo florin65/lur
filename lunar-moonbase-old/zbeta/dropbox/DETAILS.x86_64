@@ -1,0 +1,22 @@
+          MODULE=dropbox
+         VERSION=1.2.52
+          SOURCE=$MODULE-lnx.x86_64-$VERSION.tar.gz
+         SOURCE2=dropbox.py
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/.dropbox-dist
+      SOURCE_URL=http://dl-web.getdropbox.com/u/17
+     SOURCE2_URL=http://www.dropbox.com/download?dl=packages
+      SOURCE_VFY=sha1:09c087f84c6fce3e03b09f26c8a4ed8713a128e7
+     SOURCE2_VFY=sha1:4125a3ff959346b02fc407b6129ac413de7260b4
+        WEB_SITE=http://www.dropbox.com/
+         ENTERED=20110109
+         UPDATED=20120420
+           SHORT="Secure backup, sync and sharing made easy"
+
+cat << EOF
+Put your files into your Dropbox folder on one computer, and they'll
+automatically appear on any of your other computers that also have
+Dropbox installed (Windows, Mac, and Linux too!). You can even download
+Dropbox apps for your smartphone or mobile device (iPhone, iPad,
+Android, and Blackberry). Everything in your Dropbox is available from
+the Dropbox website, too.
+EOF

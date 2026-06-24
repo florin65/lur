@@ -1,0 +1,18 @@
+       MODULE=pgadmin3
+      VERSION=1.22.2
+       SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL=http://ftp.postgresql.org/pub/pgadmin3/release/v$VERSION/src
+   SOURCE_VFY=sha256:
+     WEB_SITE=http://www.pgadmin.org/index.php
+      ENTERED=20050728
+      UPDATED=20170124
+        SHORT="Administration and development platform for the PostgreSQL database"
+
+cat << EOF
+pgAdmin III is designed to answer the needs of all users, from writing simple
+SQL queries to developing complex databases. The graphical interface supports
+all PostgreSQL features and makes administration easy. The application also
+includes a query builder, an SQL editor, a server-side code editor and much
+more. pgAdmin III is released with an installer and does not require any
+additional driver to communicate with the database server.
+EOF

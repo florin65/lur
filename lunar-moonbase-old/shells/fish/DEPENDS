@@ -1,0 +1,6 @@
+depends bc
+depends ncurses
+depends inetutils
+depends which
+
+optional depends doxygen "" "" "for documetation building"

@@ -1,0 +1,14 @@
+          MODULE=libselinux
+         VERSION=2.5
+          SOURCE=$MODULE-$VERSION.tgz
+      SOURCE_URL=http://www.nsa.gov/selinux/archives
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.nsa.gov/selinux
+         ENTERED=20060214
+         UPDATED=20160224
+           SHORT="An interface for security-aware SELinux applications"
+
+cat << EOF
+This library provides an interface for security-aware
+SELinux applications.
+EOF

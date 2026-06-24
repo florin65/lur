@@ -1,0 +1,3 @@
+depends libusb-compat
+
+optional_depends boost "--enable-python-binding" "--disable-python-binding" "for Python bindings and C++ wrapper support"

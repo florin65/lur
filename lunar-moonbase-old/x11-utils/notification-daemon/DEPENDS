@@ -1,0 +1,5 @@
+depends  libsexy
+depends  dbus-glib
+depends  libwnck
+depends  GConf
+depends  libnotify

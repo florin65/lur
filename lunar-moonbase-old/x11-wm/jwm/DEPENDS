@@ -1,0 +1,13 @@
+depends libX11
+
+depends cairo
+depends %JPEG
+depends librsvg
+depends libXft
+depends libXinerama
+depends libXpm
+
+optional_depends fribidi \
+                 "--enable-fribidi" \
+                 "--diable-fribidi" \
+                 "for bidirectional text support"

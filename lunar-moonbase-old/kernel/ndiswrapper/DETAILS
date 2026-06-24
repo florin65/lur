@@ -1,0 +1,14 @@
+          MODULE=ndiswrapper
+         VERSION=1.59
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha1:
+        WEB_SITE=http://ndiswrapper.sourceforge.net
+         ENTERED=20041006
+         UPDATED=20131129
+           SHORT="Ndis driver wrapper for the Linux kernel"
+
+cat << EOF
+Use windows ndis drivers in the linux kernel for some wireless
+network cards.
+EOF

@@ -1,0 +1,13 @@
+          MODULE=libestr
+         VERSION=0.1.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://libestr.adiscon.com/files/download
+      SOURCE_VFY=sha1:441313586328985b66c802c65433cf9a90d65d8a
+        WEB_SITE=http://libestr.adiscon.com
+         ENTERED=20110415
+         UPDATED=20120413
+           SHORT="library for some string essentials"
+
+cat << EOF
+Library for some string essentials.
+EOF

@@ -1,0 +1,20 @@
+          MODULE=vnc
+         VERSION=5.0.5
+           MYVER=5_0_5
+          SOURCE=$MODULE-$MYVER-unixsrc.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MYVER-unixsrc
+   SOURCE_URL=http://download.lunar-linux.org/lunar/mirrors
+     SOURCE_VFY=sha1:
+       WEB_SITE=http://www.realvnc.com
+         ENTERED=20020112
+         UPDATED=20130309
+           PSAFE=no
+           SHORT="Vnc provides virtual network computing"
+
+cat << EOF
+VNC stands for Virtual Network Computing. It is, in essence, a remote
+display system which allows you to view a computing 'desktop'
+environment not only on the machine where it is running, but from
+anywhere on the Internet and from a wide variety of machine
+architectures.
+EOF

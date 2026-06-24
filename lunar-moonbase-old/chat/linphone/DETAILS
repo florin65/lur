@@ -1,0 +1,15 @@
+          MODULE=linphone
+         VERSION=3.11.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://download.savannah.gnu.org/releases/linphone/stable/sources
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.linphone.org
+         ENTERED=20051009
+         UPDATED=20170316
+           SHORT="A full-featured audio SIP phone"
+
+cat << EOF
+Linphone is a web phone: it let you phone to your friends anywhere
+in the whole world, freely, simply by using the internet. The cost
+of the phone call is the cost that you spend connected to the internet.
+EOF

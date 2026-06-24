@@ -1,0 +1,14 @@
+          MODULE=claws-mail
+         VERSION=3.13.2
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/sylpheed-claws
+      SOURCE_VFY=sha256:
+        WEB_SITE=http://www.claws-mail.org
+         ENTERED=20070328
+         UPDATED=20160121
+           SHORT="A GTK email client offspring of Sylpheed"
+
+cat << EOF
+Claws-mail is a fork of the popular GTK based email client Sylpheed.
+It used to to be called Sylpheed-claws.
+EOF
