@@ -1,0 +1,14 @@
+           MODULE=qwtplot3d
+          VERSION=0.2.6
+           SOURCE=$MODULE-$VERSION.tgz
+ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
+       SOURCE_URL=$SFORGE_URL/$MODULE
+       SOURCE_VFY=sha1:23330688ed2ca6e738e9ef5259e01fcca6aba2e7  
+         WEB_SITE=http://qwtplot3d.sourceforge.net/
+          ENTERED=20060516
+          UPDATED=20060516
+            SHORT="Qt/OpenGL-based C++ programming library"
+
+cat << EOF
+QwtPlot3D is not a  program, but a feature-rich Qt/OpenGL-based C++ programming library, providing essentially a  bunch of 3D-widgets for programmers.
+EOF

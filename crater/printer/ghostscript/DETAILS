@@ -1,0 +1,20 @@
+          MODULE=ghostscript
+         VERSION=8.61
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha1:b05ac61885c0370e432531ffb79de349c6e8b896
+        WEB_SITE=http://www.ghostscript.com/awki/
+         ENTERED=20041116
+         UPDATED=20071122
+           PSAFE=no
+           SHORT="GPL ghostscript"
+
+cat << EOF
+Ghostscript is the name of a set of software that provides:
+ * An interpreter for the PostScript language and the PDF file format,
+ * A set of C procedures (the Ghostscript library) that implement
+   the graphics capabilities that appear as primitive operations in the
+   PostScript language, and
+ * A wide variety of output drivers for various file formats and printers.
+ * ESP Ghostscript (espgs) is now merged into this GPL ghostscript.
+EOF

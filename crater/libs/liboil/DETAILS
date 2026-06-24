@@ -1,0 +1,20 @@
+           MODULE=liboil
+          VERSION=0.3.12
+           SOURCE=$MODULE-$VERSION.tar.gz
+       SOURCE_URL=http://www.schleef.org/$MODULE/download/
+       SOURCE_VFY=sha1:b6bf01ba31ce090e426391a9ea8ef6daf6739e96
+         WEB_SITE=http://www.schleef.org/liboil/
+          ENTERED=20050602
+          UPDATED=20070529
+            SHORT="A library of simple functions that are optimized for various CPUs"
+            PSAFE=no
+
+cat << EOF
+Liboil is a library of simple functions that are optimized for various
+CPUs. These functions are generally loops implementing simple algorithms,
+such as converting an array of N integers to floating-point numbers or
+multiplying and summing an array of N numbers. Such functions are
+candidates for significant optimization using various techniques,
+especially by using extended instructions provided by modern CPUs
+(Altivec, MMX, SSE, etc.).
+EOF

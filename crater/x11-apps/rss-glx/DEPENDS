@@ -1,0 +1,5 @@
+depends  xscreensaver  &&
+depends  ImageMagick   &&
+
+optional_depends  "openal"  "--enable-sound"  "--disable-sound"  \
+                  "for sound support in some hacks"

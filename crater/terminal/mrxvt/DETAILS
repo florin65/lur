@@ -1,0 +1,20 @@
+          MODULE=mrxvt
+         VERSION=0.5.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=no-scroll-with-buffer-mrxvt-0.5.3.patch
+      SOURCE_URL=$SFORGE_URL/materm/
+      SOURCE_VFY=sha1:442006f1d797ea5464c5c49d26d0cdecf79160f4
+     SOURCE2_URL=$SFORGE_URL/materm/
+     SOURCE2_VFY=sha1:303de6d33aa76892f24c6fac7b93ac21a945fda5
+        WEB_SITE=http://materm.sourceforge.net
+         ENTERED=20050529
+         UPDATED=20070925
+           SHORT="rxvt based terminal emulator with transparency and tab support"
+
+cat << EOF
+Mrxvt (previously named materm) is a lightweight, powerful multi-tabbed
+X terminal emulator based on rxvt version 2.7.11 CVS and aterm. It implements
+many useful features seen in some modern X terminal emulators (like
+gnome-terminal and konsole) but aims to be fast, lightweight and independent of
+standard toolkits or desktop environments (e.g. Gnome / KDE).
+EOF

@@ -1,0 +1,2 @@
+depends sysfsutils &&
+depends hal

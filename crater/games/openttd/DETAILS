@@ -1,0 +1,17 @@
+          MODULE=openttd
+         VERSION=0.5.3
+          SOURCE=$MODULE-$VERSION-source.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:ed23b5de67e597b6a96eccca26495369591f1ebc
+        WEB_SITE=http://www.openttd.org/
+         ENTERED=20060322
+         UPDATED=20071019
+      MAINTAINER=ratler@lunar-linux.org
+           SHORT="A clone of the Microprose game Transport Tycoon Deluxe"
+GARBAGE=off
+
+cat << EOF
+OpenTTD is modeled after the original Transport Tycoon game by Chris
+Sawyer and enhances the game experience dramatically. Many features were
+inspired by TTDPatch while others are original.
+EOF

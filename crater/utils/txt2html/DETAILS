@@ -1,0 +1,17 @@
+          MODULE=txt2html
+         VERSION=2.50
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:008cba36ebf2ecb29d9c58a7cef58179448fe25c
+        WEB_SITE=http://txt2html.sourceforge.net
+         ENTERED=20020328
+         UPDATED=20080105
+           SHORT="Text to HTML converter"
+
+cat << EOF
+txt2html is a Perl program that converts plain text to HTML. It supports
+headings, lists, simple character markup, and hyperlinking, and is
+highly customizable. It recognizes some of the apparent structure of the
+source document (mostly whitespace and typographic layout), and attempts
+to mark that structure explicitly using HTML.
+EOF

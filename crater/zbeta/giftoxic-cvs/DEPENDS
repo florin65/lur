@@ -1,0 +1,4 @@
+depends libgnomeui &&
+depends gift-cvs   &&
+depends giftgnutella-cvs &&
+depends giftopenft-cvs 

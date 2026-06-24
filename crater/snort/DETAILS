@@ -1,0 +1,28 @@
+          MODULE=snort
+         VERSION=2.9.17.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=community-rules.tar.gz
+         SOURCE3=snortrules-snapshot-2983.tar.gz
+   SOURCE_URL[0]=http://www.snort.org/downloads/$MODULE/
+   SOURCE_URL[1]=$MIRROR_URL
+     SOURCE2_URL=http://www.snort.org/downloads/community/
+     SOURCE3_URL=$MIRROR_URL
+      SOURCE_VFY=sha256:303d3d5dc5affecfeaad3a331d3163f901d48d960fdd6598cb55c6d1591eed82
+#     SOURCE2_VFY=sha256:
+     SOURCE3_VFY=sha256:7025236da0b2a9fa26d3735ecea6df99e998da7efab2602152f70413099d230b
+        WEB_SITE=http://www.snort.org
+         ENTERED=20011022
+         UPDATED=20210522
+           SHORT="Lightweight network intrustion detection program"
+
+cat << EOF
+Snort is a lightweight network intrusion detection system, capable of performing
+real-time traffic analysis and packet logging on IP networks. It can perform
+protocol analysis, content searching/matching and can be used to detect a
+variety of attacks and probes, such as buffer overflows, stealth port scans,CGI
+attacks, SMB probes, OS fingerprinting attempts, and much more. Snort uses a
+flexible rule based language to describe traffic that it should collect or pass,
+and a modular detection engine. Snort has a real-time alerting capability, with
+alert mechanisms for syslog, a user specified file, a UNIX socket, or WinPopup
+messages to Windows clients using Samba's smbclient.
+EOF

@@ -1,0 +1,14 @@
+          MODULE=libksba
+         VERSION=1.0.2
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=ftp://ftp.gnupg.org/gcrypt/$MODULE/
+      SOURCE_VFY=sha1:4d2c4a99c313b799590bf3fc223179c454e268b5
+        WEB_SITE=http://www.gnupg.org/aegypten/
+         ENTERED=20030310
+         UPDATED=20070706
+           SHORT="A library to make X.509 certs and CMS easily accessible to applications"
+           
+cat << EOF
+libksba provides an easy API to create and parse X.509 and CMS 
+related objects.
+EOF

@@ -1,0 +1,17 @@
+          MODULE=libqalculate
+         VERSION=0.9.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/qalculate/
+      SOURCE_VFY=sha1:0bcd42e13c23db9489ce594767d5017bdcb338ad
+        WEB_SITE=http://qalculate.sf.net
+         ENTERED=20060420
+         UPDATED=20071202
+           SHORT="Qalculate base library"
+      MAINTAINER=jannis@lunar-linux.org
+
+cat << EOF
+Qalculate! is a multi-purpose desktop calculator for GNU/Linux. It is 
+small and simple to use but with much power and versatility underneath. 
+Features include customizable functions, units, arbitrary precision, 
+plotting, and a user-friendly interface (KDE or GTK+). 
+EOF

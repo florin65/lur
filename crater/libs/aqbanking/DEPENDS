@@ -1,0 +1,11 @@
+optional_depends  gwenhywfar "--enable-gwenhywfar" "--disable-gwenhywfar" "for gwenhywfar support"
+
+optional_depends  libofx     "--enable-libofx" "--disable-libofx" "for OFX support"
+
+optional_depends  libchipcard "--enable-chipcard-client" "--disable-chipcard-client" "for chipcard-client support"
+
+optional_depends  qt3         "--enable-qt3 --enable-qt3-threads" \
+                              "--disable-qt3 --disable-qt3-threads"  "for Qt3 support"
+
+optional_depends  Python      "--enable-python" "" "for Python bindings support"
+

@@ -1,0 +1,31 @@
+          MODULE=git
+         VERSION=1.5.3.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
+         SOURCE2=$MODULE-manpages-$VERSION.tar.bz2
+         SOURCE3=$MODULE-makefile-install-4.patch
+      SOURCE_URL=$KERNEL_URL/pub/software/scm/git/
+     SOURCE2_URL=$KERNEL_URL/pub/software/scm/git/
+     SOURCE3_URL=$PATCH_URL
+      SOURCE_VFY=sha1:acca91988e674c5976e15a290be65f2775296162
+     SOURCE2_VFY=sha1:15b9ece73c28897affb5da187835d19ff20e9962
+     SOURCE3_VFY=sha1:ca8ed02bd24e0dc184204cfa0680fd89a8cbe19b
+        WEB_SITE=http://git.or.cz/
+         ENTERED=20050707
+         UPDATED=20080108
+           SHORT="Fast version control system"
+           PSAFE=no
+
+cat << EOF
+Git is a popular version control system designed to handle very large projects
+with speed and efficiency; it is used mainly for various open source projects,
+most notably the Linux kernel.
+
+Git falls in the category of distributed source code management tools, similar
+to e.g. GNU Arch or Monotone (or BitKeeper in the proprietary world). Every
+Git working directory is a full-fledged repository with full revision tracking
+capabilities, not dependent on network access or a central server.
+
+Git is an Open Source project covered by the GNU General Public License v2. It
+was originally written by Linus Torvalds and is currently maintained by
+Junio C Hamano.
+EOF

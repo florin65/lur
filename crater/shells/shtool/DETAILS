@@ -1,0 +1,19 @@
+          MODULE=shtool
+         VERSION=2.0.7
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$GNU_URL/$MODULE/
+      SOURCE_VFY=sha1:08665a04b69064312d3ec562200ab9b71882aa44
+        WEB_SITE=http://www.gnu.org/software/shtool/shtool.html
+         ENTERED=20021219
+         UPDATED=20070611
+           SHORT="collection of small portable shell scripts in one single tool"
+
+cat << EOF
+GNU shtool is a compilation of small but very stable and portable shell
+scripts into a single shell tool. All ingredients were in successful use
+over many years in various free software projects. The compiled shtool
+program is intended to be used inside the source tree of other free
+software packages. There it can overtake various (usually non-portable)
+tasks related to the building and installation of such a package. It
+especially can replace the old mkdir.sh, install.sh and related scripts.
+EOF

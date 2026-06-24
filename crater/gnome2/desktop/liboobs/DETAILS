@@ -1,0 +1,17 @@
+          MODULE=liboobs
+         VERSION=2.20.0
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:1c33bb12c97d5bea48cca1a6650426a0d4a15ba2
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20070315
+         UPDATED=20071117
+           SHORT="library wrapping System Tools Backends"
+
+cat << EOF
+Liboobs is a wrapping library to the System Tools Backends, it will
+provide easy to access GObjects to system configuration details, like
+users, groups and network interfaces, it will handle sessions with the
+backend and data consistency too
+EOF

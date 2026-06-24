@@ -1,0 +1,15 @@
+          MODULE=SVK
+         VERSION=v2.0.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://search.cpan.org/CPAN/authors/id/C/CL/CLKAO/
+      SOURCE_VFY=sha1:8d691c6e6b914e5b8e71ba75dee60b61fe90e54f
+        WEB_SITE=http://svk.bestpractical.com/view/HomePage
+         ENTERED=20070307
+         UPDATED=20071030
+           SHORT="A distributed version control system"
+cat << EOF
+svk is a decentralized version control system built with the robust Subversion
+filesystem. It supports repository mirroring, disconnected operation,
+history-sensitive merging, and integrates with other version control systems,
+as well as popular visual merge tools.
+EOF

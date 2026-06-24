@@ -1,0 +1,17 @@
+               MODULE=Candido-Engine
+              VERSION=0.9.1
+               SOURCE=$MODULE.tar.bz2
+     SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE/
+           SOURCE_URL=http://download.berlios.de/candido/
+           SOURCE_VFY=sha1:6324aeaf3ebeb0e51c5a668a11c13be82049357f
+             WEB_SITE=http://candido.berlios.de/
+              ENTERED=20060712
+              UPDATED=20060824
+                SHORT="Cairo-based GTK+-2 theme engine"
+           MAINTAINER=jannis@lunar-linux.org
+
+cat << EOF
+Candido Engine is the Gtk2 cairo-based engine for new Candido themes.
+This engine was expecially designed to be fast light and clean, and to 
+be wonderful as Candido pixmaps themes, and different.
+EOF

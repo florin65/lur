@@ -1,0 +1,19 @@
+            MODULE=tcl
+           VERSION=8.5.0
+            SOURCE=$MODULE$VERSION-src.tar.gz
+  SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE$VERSION
+        SOURCE_URL=$SFORGE_URL/$MODULE/
+        SOURCE_VFY=sha1:d636d29f213533e8d32eb21f7cd7f8c7a5d76565
+          WEB_SITE=http://tcl.sourceforge.net/
+           ENTERED=20010922
+           UPDATED=20071221
+             SHORT="Tcl provides a multi-platform scripting environment"
+
+cat << EOF
+Tcl provides a portable scripting environment for Unix, Windows, and
+Macintosh that supports string processing and pattern matching, native
+file system access, shell-like control over other programs, TCP/IP
+networking, timers, and event-driven I/O. Tcl has traditional
+programming constructs like variables, loops, procedures, namespaces,
+error handling, script packages, and dynamic loading of DLLs.
+EOF

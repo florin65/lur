@@ -1,0 +1,19 @@
+          MODULE=gamin
+         VERSION=0.1.9
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.gnome.org/~veillard/$MODULE/sources/
+      SOURCE_VFY=sha1:f8f8a4f0701a2c9a69634a60a135298db90d7779
+        WEB_SITE=http://www.gnome.org/~veillard/gamin/index.html
+         ENTERED=20040905
+         UPDATED=20070916
+           SHORT="file and directory monitoring system"
+
+cat << EOF
+Gamin is a file and directory monitoring system defined to be a subset
+of the FAM (File Alteration Monitor) system.  This is a service provided
+by a library which allows to detect when a file or a directory has been
+modified.
+
+It is strongly suggested you use Gamin with an inotify enabled kernel for
+best performance!
+EOF

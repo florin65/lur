@@ -1,0 +1,16 @@
+          MODULE=cpio
+         VERSION=2.9
+          SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL[0]=$GNU_URL/$MODULE/
+   SOURCE_URL[1]=ftp://ftp.gnu.org/pub/gnu/$MODULE/
+      SOURCE_VFY=sha1:ef381d0f33f1ea74475b6d813c42a74327762c4a
+        WEB_SITE=http://www.gnu.org/software/cpio/cpio.html
+         ENTERED=20011004
+         UPDATED=20070713
+           SHORT="cpio creates cpio archives and have rmt"
+
+cat << EOF
+GNU cpio - Creates cpio or tar archives and provides rmt.
+cpio equivalent to tar with a couple of buts and depends.
+this also provides the rmt command.
+EOF

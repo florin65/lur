@@ -1,0 +1,24 @@
+          MODULE=dasher
+         VERSION=4.4.0
+           MAJOR=4.4
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:f00f0c1c08f59d1a0679ec6467fea472f67d9885
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20040111
+         UPDATED=20070315
+           SHORT="an information-efficient text-entry interface, driven by natural continuous pointing gestures."
+cat << EOF
+Dasher is an information-efficient text-entry interface, driven by 
+natural continuous pointing gestures. Dasher is a competitive text-entry 
+system wherever a full-size keyboard cannot be used - for example,
+
+    * on a palmtop computer;
+    * on a wearable computer;
+    * when operating a computer one-handed, by joystick, touchscreen, trackball, or mouse;
+    * when operating a computer with zero hands (i.e., by head-mouse or by eyetracker). 
+
+The eyetracking version of Dasher allows an experienced user to write 
+text as fast as normal handwriting - 25 words per minute; using a mouse, 
+experienced users can write at 39 words per minute.
+EOF

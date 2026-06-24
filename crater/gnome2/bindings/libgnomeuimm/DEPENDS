@@ -1,0 +1,5 @@
+depends  libglade2
+depends  libgnomecanvasmm
+depends  libgnomemm
+depends  gconfmm
+depends  gnome-vfsmm

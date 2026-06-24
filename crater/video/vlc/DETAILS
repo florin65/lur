@@ -1,0 +1,18 @@
+          MODULE=vlc
+         VERSION=0.8.6d
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_VFY=sha1:a4c1e0fa28cd7e13ee16d90e4a9392d1e53e5a41
+      SOURCE_URL=http://www.videolan.org/pub/videolan/$MODULE/$VERSION/
+        WEB_SITE=http://www.videolan.org
+         ENTERED=20011113
+         UPDATED=20071130
+           SHORT="Videolan client multimedia player"
+
+cat << EOF
+The VideoLAN Client (VLC) is an MPEG, MPEG2, VCD and DVD player for
+Unix, Windows, MacOS X, BeOS and QNX. It can play MPEG streams from a
+file, from a network source, or directly from a VCD or DVD. There is
+video support for X11/XVideo, GGI, SDL, the Linux framebuffer device,
+DirectX, BeOS, and QNX, audio support for OSS, Esound, ALSA, and
+GTK+-2 interfaces.
+EOF

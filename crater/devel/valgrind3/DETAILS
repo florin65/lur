@@ -1,0 +1,18 @@
+          MODULE=valgrind3
+         VERSION=3.3.0
+          SOURCE=valgrind-$VERSION.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/valgrind-$VERSION
+      SOURCE_URL=http://valgrind.org/downloads/
+      SOURCE_VFY=sha1:e2d0f3bcb4e6dd4638ceeddc9da8603b32efdf11
+        WEB_SITE=http://valgrind.org/
+         ENTERED=20050821
+         UPDATED=20071221
+           SHORT="An open-source memory debugger for x86-GNU/Linux"
+
+cat <<EOF
+Valgrind is a GPL'd tool to help you find memory-management problems in
+your programs. When a program is run under Valgrind's supervision, all
+reads and writes of memory are checked, and calls to malloc/new/free/delete
+are intercepted.
+EOF
+

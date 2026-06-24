@@ -1,0 +1,16 @@
+          MODULE=iftop
+         VERSION=0.17
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.ex-parrot.com/~pdw/$MODULE/download/
+      SOURCE_VFY=sha1:75ce6afc8c0bf851278b0a15e66f523af90cfda9
+        WEB_SITE=http://www.ex-parrot.com/~pdw/iftop/
+         ENTERED=20040422
+         UPDATED=20060310
+           SHORT="display bandwidth usage on an interface"
+
+cat << EOF
+iftop does for network usage what top(1) does for CPU usage. It listens to
+network traffic on a named interface and displays a table of current bandwidth
+usage by pairs of hosts. Handy for answering the question "why is our ADSL link
+so slow?".
+EOF

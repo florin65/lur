@@ -1,0 +1,14 @@
+          MODULE=libgnomeuimm
+         VERSION=2.20.0
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:1cea52b484c21e176d8faa95e4dceaaebbc227e0
+        WEB_SITE=http://gtkmm.org
+         ENTERED=20031208
+         UPDATED=20071222
+           SHORT="C++ Bindings for libgnomeui"
+
+cat << EOF
+C++ Bindings for libgnomeui
+EOF

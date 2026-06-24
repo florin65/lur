@@ -1,0 +1,14 @@
+          MODULE=transcode
+         VERSION=1.1.5
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://download.berlios.de/tcforge
+      SOURCE_VFY=sha1:48c36e06ca0cd1cdc1a9c6a241e231f896eefd26
+        WEB_SITE=http://www.transcoding.org/cgi-bin/transcode
+         ENTERED=20020408
+         UPDATED=20091101
+           SHORT="A video stream processor"
+
+cat << EOF
+Transcode is a multimedia stream processor for video formats such as
+Divx and MPEG. It can handle many different input and output types.
+EOF

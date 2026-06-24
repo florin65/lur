@@ -1,0 +1,3 @@
+depends  font-util  
+depends  mkfontscale
+depends xproto

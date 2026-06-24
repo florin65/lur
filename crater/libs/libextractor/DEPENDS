@@ -1,0 +1,4 @@
+depends  libtool  &&
+depends  glibc    &&
+
+optional_depends  "libvorbis"  ""  ""  "for Ogg/Vorbis meta support"

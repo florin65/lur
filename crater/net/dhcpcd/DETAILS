@@ -1,0 +1,16 @@
+          MODULE=dhcpcd
+         VERSION=3.1.4
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://download.berlios.de/$MODULE/
+      SOURCE_VFY=sha1:8b4520179ca29ee74292bc4c4ca25a23454f103c
+        WEB_SITE=http://dhcpcd.berlios.de/
+         ENTERED=20011126
+         UPDATED=20070815
+           SHORT="DHCP client/daemon that works with @home"
+
+cat << EOF
+dhcpcd is an RFC2131-, RFC2132-, and RFC1541-compliant DHCP client
+daemon. It gets an IP address and other information from the DHCP
+server, automatically configures the network interface, and tries to
+renew the lease time according to RFC2131 or RFC1541.
+EOF

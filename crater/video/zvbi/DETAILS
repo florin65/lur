@@ -1,0 +1,15 @@
+          MODULE=zvbi
+          PARENT=zapping
+         VERSION=0.2.25
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$PARENT/
+      SOURCE_VFY=sha1:97d30fb18f013feccabdd3a0a89894ea134d87c9
+        WEB_SITE=http://$PARENT.sourceforge.net
+         ENTERED=20011124
+         UPDATED=20070619
+      MAINTAINER=dem@lunar-linux.org
+           SHORT="VBI (teletext)"
+
+cat << EOF
+A library for VBI (teletext), used by Zapping and XawTV.
+EOF

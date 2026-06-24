@@ -1,0 +1,17 @@
+          MODULE=zenity
+         VERSION=2.20.1
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:25f2e7c6736d408c24f201b0847c82c9b49cc313
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20030205
+         UPDATED=20071127
+           SHORT="displays graphical dialog boxes from the command line"
+
+cat << EOF
+Zenity allows you to display GTK+-2 dialogs from the command line or
+shell scripts.  It is a rewrite of the gdialog command from GNOME 1.x.
+This module ships with a gdialog wrapper script so that it can be used
+with legacy shell scripts.
+EOF

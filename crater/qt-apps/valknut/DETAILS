@@ -1,0 +1,15 @@
+          MODULE=valknut
+         VERSION=0.3.9
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/wxdcgui/
+      SOURCE_VFY=sha1:754f679fa9f7cecf5ec135c4ba44831ea368c96f
+        WEB_SITE=http://dcgui.berlios.de/
+         ENTERED=20031008
+         UPDATED=20070531
+           SHORT="Direct Connect (DC++) client for Qt"
+
+cat << EOF
+valknut is a program that uses the Direct Connect protocol. It is 
+compatible with other DC clients, such as the original DC from 
+Neomodus, and DC++.
+EOF

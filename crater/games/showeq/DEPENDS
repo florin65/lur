@@ -1,0 +1,4 @@
+depends  qt3      &&
+depends  libpcap  &&
+depends  libpng   &&
+depends  gdbm

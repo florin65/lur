@@ -1,0 +1,20 @@
+         MODULE=xlog
+        VERSION=1.5
+         SOURCE=$MODULE-$VERSION.tar.gz
+  SOURCE_URL[0]=http://www.qsl.net/pg4i/download/
+     SOURCE_VFY=sha1:bb86f7e2784c3937c04c171fc9dad36af6b591c7
+       WEB_SITE=http://www.qsl.net/pg4i/linux/
+        ENTERED=20011110
+        UPDATED=20070329
+          SHORT="ham radio logging program for X"
+     MAINTAINER=w9ya@amsat.org
+
+cat << EOF
+Xlog will display a log with the most recent contacts added to the top.
+You can add, delete and edit log entries. The log is saved into a text
+file.  When clicking on the log column called "Call", you can sort the
+log either ascending, descending or by entry.  Xlog is able to do DXCC
+lookups and will display country information, CQ and ITU zone, location
+in latitude and longitude and distance and heading in kilometers or
+miles, both for short and long path.
+EOF

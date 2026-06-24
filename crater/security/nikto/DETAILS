@@ -1,0 +1,17 @@
+          MODULE=nikto
+         VERSION=2.02
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://www.cirt.net/$MODULE/
+      SOURCE_VFY=sha1:e413f24d5a94056fde72a91393e00c0ae34b2f1f
+        WEB_SITE=http://www.cirt.net/code/nikto.shtml
+         ENTERED=20041027
+         UPDATED=20080127
+           SHORT="A web server vulnerability scanner"
+
+cat << EOF
+Nikto is web server scanner which performs comprehensive tests
+against web servers for multiple items, including over 2600
+potentially dangerous files/CGIs, versions on over 625 servers, and
+version specific problems on over 230 servers. Scan items and plugins
+are frequently updated and can be automatically updated (if desired).
+EOF

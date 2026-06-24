@@ -1,0 +1,17 @@
+          MODULE=HTML-Tree
+         VERSION=3.23
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://search.cpan.org/CPAN/authors/id/P/PE/PETEK/
+      SOURCE_VFY=sha1:25135e1888aa9805cdfce0907ff17a6fdd422b0e
+        WEB_SITE=http://search.cpan.org/~petek/HTML-Tree-3.23/
+         ENTERED=20040212
+         UPDATED=20060224
+           SHORT="Parser that builds an HTML syntax tree"
+
+cat << EOF
+This is a parser that builds (and actually itself is) a HTML syntax tree.
+
+Objects of this class inherit the methods of both HTML::Parser and
+HTML::Element. After parsing has taken place it can be regarded as
+the syntax tree itself.
+EOF

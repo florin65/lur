@@ -1,0 +1,15 @@
+          MODULE=pilot-link
+         VERSION=0.12.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://downloads.pilot-link.org/
+      SOURCE_VFY=sha1:d459ec2626ee19367a5329e604e33b337ef37602
+        WEB_SITE=http://www.pilot-link.org/
+         ENTERED=20011129
+         UPDATED=20080114
+           SHORT="PalmOS<->PC transfer program."
+           PSAFE=no
+cat << EOF
+The pilot-link suite of tools contains a series of conduits for
+moving information to and from your Palm device and your desktop
+or workstation system.
+EOF

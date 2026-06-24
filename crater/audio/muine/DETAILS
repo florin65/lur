@@ -1,0 +1,14 @@
+          MODULE=muine
+         VERSION=0.6.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://muine.gooeylinux.org/
+      SOURCE_VFY=md5:dc7923e1e0ba87f0303bc30f14f604e3
+        WEB_SITE=http://muine.gooeylinux.org/
+         ENTERED=20040411
+         UPDATED=20040702
+           SHORT="new music player using some new UI ideas."
+cat << EOF
+Muine is a new music player using some new UI ideas. The idea is that it
+will be much easier and comfortable to use than the iTunes model, which 
+is used by both Rhythmbox and Jamboree.
+EOF

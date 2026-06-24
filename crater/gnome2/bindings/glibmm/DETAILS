@@ -1,0 +1,14 @@
+          MODULE=glibmm
+         VERSION=2.14.2
+           MAJOR=2.14
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:4edeb23a13b068c3ef93c6f0acfd5decbdd7a91d
+        WEB_SITE=http://www.gtkmm.org/
+         ENTERED=20040409
+         UPDATED=20071104
+           SHORT="C++ bindings for glib2"
+
+cat << EOF
+glibmm is the official C++ binding for Glib2.
+EOF

@@ -1,0 +1,4 @@
+depends  popt
+depends  cairo
+depends  libgsf
+depends  libcroco  

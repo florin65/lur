@@ -1,0 +1,13 @@
+          MODULE=gnopernicus
+         VERSION=1.1.1
+           MAJOR=1.1
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:fe67906feabc9474235303eecc67fabd348da10e
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20031010
+         UPDATED=20060803
+           SHORT="speech synthisizer for Gnome Desktop"
+cat << EOF
+gnopernicus is a speech synthisizer for Gnome Desktop
+EOF

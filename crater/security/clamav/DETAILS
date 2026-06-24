@@ -1,0 +1,18 @@
+          MODULE=clamav
+         VERSION=0.92
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:b6573acd9a7bb6bf3bd4b39a0102ce0be764c5bc
+        WEB_SITE=http://www.clamav.net/
+         ENTERED=20030314
+         UPDATED=20071217
+           SHORT="GPL anti-virus toolkit"
+
+cat <<EOF
+Clam AntiVirus is an anti-virus toolkit written from scratch. It is
+licensed under GNU GPL2 and uses the virus database from OpenAntiVirus,
+which is an another free anti-virus project. In contrast to
+OpenAntiVirus (which is written in Java), Clam AntiVirus is written
+entirely in C and its database is KEPT UP TO DATE. It also detects
+polymorphic viruses as well.
+EOF

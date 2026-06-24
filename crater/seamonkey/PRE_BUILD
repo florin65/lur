@@ -1,0 +1,19 @@
+default_pre_build &&
+
+export MOZ_CO_PROJECT=suitex &&
+export MOZILLA_HOME=/usr/lib/$MODULE-$VERSION &&
+export MOZILLA_OFFICIAL=1 &&
+export BUILD_OFFICIAL=1 &&
+
+cp $SCRIPT_DIRECTORY/mozconfig . &&
+export MOZ_OBJDIR="${SOURCE_DIRECTORY}/build-mozilla" &&
+mkdir -p ${MOZ_OBJDIR} &&
+
+for flag in $OPTS; do
+   echo "ac_add_options $flag" >> mozconfig
+done &&
+
+# Correct system ICU, adapt the line break mapping for ICU-74.
+(for i in {43..47}; do
+   sed '/ZWJ/s/$/,CLASS_CHARACTER/' -i intl/lwbrk/LineBreaker.cpp || exit $?
+done)

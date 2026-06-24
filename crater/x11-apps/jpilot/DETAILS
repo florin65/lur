@@ -1,0 +1,14 @@
+          MODULE=jpilot
+         VERSION=0.99.9
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://jpilot.org/
+      SOURCE_VFY=sha1:19a76f8815188a1b7993fbff81624e852a3bbc5c
+        WEB_SITE=http://jpilot.org
+         ENTERED=20020218
+         UPDATED=20060926
+           SHORT="Desktop organizer software for PalmOS devices."
+cat << EOF
+J-Pilot is a desktop organizer application for PalmOS devices that runs under
+Linux and Unix using X-Windows and GTK+. It is similar in functionality to
+Palm Desktop and has many extra features.
+EOF

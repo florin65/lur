@@ -1,0 +1,15 @@
+          MODULE=obconf
+         VERSION=2.0.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://icculus.org/openbox/$MODULE/
+      SOURCE_VFY=sha1:3b7bb3d27b2eca71a2a157e7649c213701975d1f
+        WEB_SITE=http://icculus.org/openbox/index.php/ObConf:About
+         ENTERED=20040815
+         UPDATED=20071018
+           SHORT="preferences manager for Openbox."
+cat << EOF
+ObConf is a preferences manager for Openbox.
+
+Openbox is a standards compliant, fast, light-weight, extensible
+window manager.
+EOF

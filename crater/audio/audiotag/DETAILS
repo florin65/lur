@@ -1,0 +1,14 @@
+         MODULE=audiotag
+        VERSION=0.14
+         SOURCE=$MODULE-$VERSION.tar.gz
+     SOURCE_URL=http://www.tempestgames.com/ryan/downloads/
+     SOURCE_VFY=sha1:060bb073e4ba772c139d95ae99f3538dd8b40103
+       WEB_SITE=http://www.tempestgames.com/ryan/
+        ENTERED=20041111
+        UPDATED=20060108
+          SHORT="A command line audio file meta tagger" 
+
+cat << EOF
+Audiotag is a command-line tool for performing mass tagging of audio
+files.  Works for mp3, ogg, and flac files.
+EOF

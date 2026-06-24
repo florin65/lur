@@ -1,0 +1,20 @@
+          MODULE=nmap
+         VERSION=4.53
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://www.insecure.org/$MODULE/dist/
+      SOURCE_VFY=sha1:e2274194e7be2805a0f21cff3b352df192e1f835
+        WEB_SITE=http://www.insecure.org/nmap
+         ENTERED=20010922
+         UPDATED=20080113
+           SHORT="A utility for network exploration or security auditing"
+
+cat << EOF
+Nmap is a utility for network exploration or security auditing. It
+supports ping scanning (determine which hosts are up), many port
+scanning techniques (determine what services the hosts are offering),
+and TCP/IP fingerprinting (remote host operating system identification).
+Nmap also offers flexible target and port specification, decoy scanning,
+determination of TCP sequence predictability characteristics, sunRPC
+scanning, reverse-identd scanning, and more. Console and X-Window
+versions are available.
+EOF

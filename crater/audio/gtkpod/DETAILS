@@ -1,0 +1,17 @@
+          MODULE=gtkpod
+         VERSION=0.99.10
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/gtkpod/
+      SOURCE_VFY=sha1:350a51ce4e8dae4eb9c2f224799044faaa98f3e0
+        WEB_SITE=http://gtkpod.sourceforge.net/
+         ENTERED=20050111
+         UPDATED=20070916
+           SHORT="A gtk2 frontend for your iPod"
+cat << EOF
+Gtkpod is a platform independent GUI for Apple's iPod (1G, 2G, 3G,
+4G, mini -- no information about photo version yet) using GTK2. It
+allows you to upload songs and playlists to your iPod. It supports ID3
+tag editing, multiple charsets for ID3 tags, detects duplicate songs,
+allows offline modification of the database with later synchronisation,
+and more.
+EOF

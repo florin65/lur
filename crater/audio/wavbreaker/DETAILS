@@ -1,0 +1,17 @@
+           MODULE=wavbreaker
+          VERSION=0.8.1
+           SOURCE=$MODULE-$VERSION.tar.gz
+       SOURCE_URL=$SFORGE_URL/$MODULE
+       SOURCE_VFY=sha1:34aa9661389feebc8d6c48b6d3a0c92ab37a8c10
+         WEB_SITE=http://wavbreaker.sourceforge.net/
+          ENTERED=20050821
+          UPDATED=20070726
+            SHORT="A tool to split a wave file up into multiple waves"
+
+cat << EOF
+This application's purpose in life is to take a wave file and break 
+it up into multiple wave files. It makes a clean break at the correct 
+position to burn the files to an audio cd without any dead air between 
+the tracks. It will only read wave files, so use an appropriate tool to 
+convert ogg, mp3, etc. files and then break them up.
+EOF

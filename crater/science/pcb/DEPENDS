@@ -1,0 +1,4 @@
+depends m4    &&
+depends flex  &&
+depends bison &&
+depends gd

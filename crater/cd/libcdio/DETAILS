@@ -1,0 +1,16 @@
+          MODULE=libcdio
+         VERSION=0.79
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$GNU_URL/$MODULE/
+      SOURCE_VFY=sha1:0aab3dd1f808345a9ea4cdd7ee793977ab59c98d
+        WEB_SITE=http://www.gnu.org/software/vcdimager
+         ENTERED=20040711
+         UPDATED=20071027
+           SHORT="GNU Compact Disc Input and Control Library"
+           PSAFE=no
+
+cat << EOF
+The libcdio package contains a library which encapsulates CD-ROM reading
+and control. Applications wishing to be oblivious of the OS and device-
+dependent properties of a CD-ROM can use this library.
+EOF

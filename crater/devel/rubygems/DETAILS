@@ -1,0 +1,14 @@
+          MODULE=rubygems
+         VERSION=0.9.2
+          SOURCE=$MODULE-$VERSION.tgz
+      SOURCE_URL=http://rubyforge.org/frs/download.php/17190/
+      SOURCE_VFY=sha1:ed6f48a4116d36f6f4b16fcf024a025037bf1d35
+        WEB_SITE=http://rubygems.rubyforge.org
+         ENTERED=20050412
+         UPDATED=20070307
+           SHORT="Package management framework for the Ruby programming language."
+
+cat << EOF
+RubyGems is a package management framework for the Ruby programming 
+language. 
+EOF

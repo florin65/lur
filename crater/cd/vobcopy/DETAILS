@@ -1,0 +1,14 @@
+          MODULE=vobcopy
+         VERSION=1.1.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://vobcopy.org/download/
+      SOURCE_VFY=sha1:870bda552efde515388dace5136030d1c83104a2
+        WEB_SITE=http://vobcopy.org/
+         ENTERED=20060506
+         UPDATED=20080114
+        SHORT="A tool for making a backup copy of DVDs"
+
+cat << EOF
+Vobcopy is a tool for making unencrypted copies of DVDs on your 
+harddrive.
+EOF

@@ -1,0 +1,18 @@
+          MODULE=lam
+         VERSION=7.1.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://www.lam-mpi.org/download/files/
+      SOURCE_VFY=sha1:4a583308c0442eb46f4fd0abe7e26ea3e1fd4adb
+        WEB_SITE=http://www.lam-mpi.org/
+         ENTERED=20040224
+         UPDATED=20070527
+           SHORT="an implementation of Message Passing Interface"
+
+cat << EOF
+LAM/MPI is a high quality implementation of the Message Passing Interface
+(MPI) Standard. LAM/MPI provides high performance on a variety of
+platforms, from small off-the-shelf single CPU clusters to large SMP
+machines with high speed networks, even in heterogenous environments.
+In addition to high performance, LAM provides a number of usability
+features key to developing large scale MPI applications.
+EOF

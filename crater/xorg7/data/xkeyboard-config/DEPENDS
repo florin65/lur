@@ -1,0 +1,3 @@
+depends xkbcomp    
+depends XML-Parser
+

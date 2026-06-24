@@ -1,0 +1,14 @@
+           MODULE=LinNeighborhood
+         VERSION=0.6.5
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://www.bnro.de/~schmidjo/download/
+        WEB_SITE=http://www.bnro.de/~schmidjo/
+        ENTERED=20011113
+        UPDATED=20011113
+          SHORT="workalike to micro\$ofts network neighborhood."
+     MAINTAINER=w9ya@amsat.org
+
+cat << EOF
+LinNeighborhood is a GUI frontend for browsing M\$ machines and mounting 
+SMB shares using Samba.
+EOF

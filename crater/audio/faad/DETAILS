@@ -1,0 +1,19 @@
+          MODULE=faad
+         VERSION=2-2.6.1
+          SOURCE=${MODULE}${VERSION}.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/faad2
+      SOURCE_URL=$SFORGE_URL/faac/
+      SOURCE_VFY=sha1:b4ad33d3c4dfa6dbf3011a3da34c631926cabfad
+        WEB_SITE=http://www.audiocoding.com/
+         ENTERED=20030804
+         UPDATED=20080104
+           SHORT="ISO AAC audio decoder"
+
+cat << EOF
+FAAD is the fastest ISO AAC audio decoder available. FAAD correctly decodes
+all MPEG-4 and MPEG-2 MAIN, LOW, LTP, LD and ER object type AAC files.
+There is a stable version of FAAD available, source code can be downloaded
+on the download page. The advantage of this new library is the lack of
+copyrighted code written by third parties. Further it is coded much cleaner
+and will give a much better understanding of the AAC coding algorithms.
+EOF

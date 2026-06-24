@@ -1,0 +1,5 @@
+depends ClanLib    &&
+depends libxml++   &&
+depends SDL_mixer  &&
+depends SDL_ttf    &&
+depends gettext

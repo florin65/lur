@@ -1,0 +1,17 @@
+          MODULE=opensp
+             MOD=OpenSP
+         VERSION=1.5.2
+          SOURCE=$MOD-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MOD-$VERSION
+      SOURCE_URL=$SFORGE_URL/openjade/
+      SOURCE_VFY=sha1:b4e903e980f8a8b3887396a24e067bef126e97d5
+        WEB_SITE=http://www.jclark.com
+         ENTERED=20021231
+         UPDATED=20051223
+           SHORT="A free, object-oriented toolkit for SGML parsing and entity management"
+
+cat << EOF
+OpenSP comprises libosp (a cross platform library allowing a developer
+to include SGML and XML parsing and validating features in their own
+applications) and a number of tools for validating/parsing SGML and XML.
+EOF

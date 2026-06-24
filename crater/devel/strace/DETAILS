@@ -1,0 +1,16 @@
+          MODULE=strace
+         VERSION=4.5.16
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:cc4a40661eccb1aaf960ffa9fac95d754536a5c5
+        WEB_SITE=http://www.liacs.nl/~wichert/strace/
+         ENTERED=20010922
+         UPDATED=20070803
+           SHORT="System call tracing utility (like trace, truss, etc)"
+
+cat << EOF
+strace is a useful diagnostic, instructional, and debugging tool.
+System administrators, diagnosticians and troubleshooters will find
+it invaluable for solving problems with programs for which the source
+is not readily.
+EOF

@@ -1,0 +1,14 @@
+          MODULE=tango-icon-theme
+         VERSION=0.8.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://tango-project.org/releases/
+      SOURCE_VFY=sha1:75ed88618264951755a6b47bea8d3b6484a93ed3
+        WEB_SITE=http://tango-project.org
+         ENTERED=20060421
+         UPDATED=20070922
+           SHORT="Tango icon theme"
+      MAINTAINER=jannis@lunar-linux.org
+
+cat << EOF
+Tango icon theme
+EOF

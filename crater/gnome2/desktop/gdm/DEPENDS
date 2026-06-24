@@ -1,0 +1,3 @@
+depends librsvg         &&
+depends libgnomecanvas  &&
+depends gnome-doc-utils

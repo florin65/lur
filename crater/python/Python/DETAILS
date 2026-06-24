@@ -1,0 +1,22 @@
+          MODULE=Python
+         VERSION=2.5.1
+   MAJOR_VERSION=2.5
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://www.python.org/ftp/python/$VERSION/
+      SOURCE_VFY=sha1:993a66bd2dabb0c4f33ca98372576315ef113df6
+        WEB_SITE=http://www.python.org
+         ENTERED=20010922
+         UPDATED=20070422
+           PSAFE=no
+           SHORT="Interpreted, interactive, object-oriented programming language"
+
+cat << EOF
+Python is an interpreted, interactive, object-oriented programming
+language. It combines remarkable power with very clear syntax, and isn't
+difficult to learn. It has modules, classes, exceptions, very high level
+data types, and dynamic typing. There are interfaces to many system
+calls and libraries, as well as to various windowing systems (Tk, Mac,
+MFC, GTK+, Qt, wxWindows). Newbuilt-in modules are easily written in C
+or C++. Python is also usable as an extension language for applications
+that need a programmable interface.
+EOF

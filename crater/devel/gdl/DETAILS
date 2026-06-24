@@ -1,0 +1,16 @@
+          MODULE=gdl
+         VERSION=0.7.7
+           MAJOR=0.7
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:214b27833963ed9c6fa37b27f15aa5ad115e7b3a
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20060423
+         UPDATED=20071103
+           SHORT="GNOME Development Libraries"
+
+cat << EOF
+GNOME Development Library. A library to contain source code development
+widgets and tools. Currently it has complex-docking widgets, data view
+widgets, theme based mime icons widget and some other titbits.
+EOF

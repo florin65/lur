@@ -1,0 +1,16 @@
+          MODULE=gtkglarea2
+             MOD=gtkglarea
+         VERSION=1.99.0
+          SOURCE=$MOD-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MOD-$VERSION
+   SOURCE_URL[0]=ftp://ftp.heanet.ie/mirrors/download.sourceforge.net/pub/sourceforge/f/fi/fink/direct_download/source/
+   SOURCE_URL[1]=http://download.lunar-linux.org/lunar/mirrors/
+        WEB_SITE=http://linux.maruhn.com/sec/gtkglarea.html
+         ENTERED=20011021
+         UPDATED=20071209
+           SHORT="an OpenGL/Mesa widget for GTK+"
+cat << EOF
+Gtkglarea provides a way for GTK+ applications to have an OpenGL
+canvas to draw in.  It needs the GL libraries installed with xfree86
+and the gtk+ package, of course...
+EOF

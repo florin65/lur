@@ -1,0 +1,4 @@
+depends docbook-4.1
+depends discover-data
+depends expat
+depends check

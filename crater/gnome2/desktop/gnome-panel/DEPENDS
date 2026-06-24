@@ -1,0 +1,8 @@
+depends  gnome-desktop
+depends  gnome-menus
+depends  libwnck
+
+optional_depends  "evolution-data-server"  "--enable-eds"  "--disable-eds"  \
+                  "for intergrated date and time with evo"
+optional_depends  "gtk-doc"  "--enable-gtk-doc"  ""  \
+                  "to install user documentation"

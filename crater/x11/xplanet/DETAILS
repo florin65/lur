@@ -1,0 +1,17 @@
+          MODULE=xplanet
+         VERSION=1.2.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:e002711f90f502565613ab17a273175cc035b52c
+        WEB_SITE=http://xplanet.sourceforge.net/
+         ENTERED=20020608
+         UPDATED=20071217
+        SHORT="Xplanet renders an image of a planet into the X root window."
+
+cat << EOF
+Xplanet was inspired by Xearth, which renders an image of the earth into 
+the X root window. Azimuthal, Mercator, Mollweide, orthographic, or 
+rectangular projections can be shown as well as a window with a globe the 
+user can rotate interactively using OpenGL or Mesa. The other planets and 
+some satellites may also be displayed.
+EOF

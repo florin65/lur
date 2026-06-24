@@ -1,0 +1,18 @@
+          MODULE=inkscape
+         VERSION=0.45.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:f3df9eafc0fdfcc5f5024ea4bec4d7c477698380
+        WEB_SITE=http://www.inkscape.org
+         ENTERED=20031115
+         UPDATED=20070321
+           SHORT="Full featured open source SVG editor"
+
+cat << EOF
+Inkscape seeks to become a full featured open source SVG editor. Derived
+from the highly popular Sodipodi codebase, Inkscape strives to build
+full XML, SVG, and CSS2 compliance, convert the codebase from C/Gtk to 
+C++/Gtkmm, emphasizes a lightweight core with powerful features added 
+through an extension mechanism, and promotes friendly, open, community-
+oriented development processes.
+EOF

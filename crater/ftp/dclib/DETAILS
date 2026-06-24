@@ -1,0 +1,15 @@
+       MODULE=dclib
+      VERSION=0.3.9
+       SOURCE=$MODULE-$VERSION.tar.bz2 
+   SOURCE_URL=$SFORGE_URL/wxdcgui/
+   SOURCE_VFY=sha1:2806f2f4bd05dbc1a4aeed5b411661bd1a2e4421
+     WEB_SITE=http://dcgui.berlios.de
+      ENTERED=20031008
+      UPDATED=20070531
+        SHORT="A library for the Direct Connect P2P system"
+
+cat << EOF
+dclib is a library for the connection and interaction with Direct Connect 
+compatible peer2peer hubs and clients. This package is initially only used 
+by dcgui-qt.
+EOF

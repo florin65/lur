@@ -1,0 +1,10 @@
+depends python-pygobject
+depends libgnomekbd
+depends vala
+depends meson
+
+optional_depends gtk-doc \
+                 "-Ddocs=true" \
+                 "-Ddocs=false" \
+                 "for API references documentation" \
+                 "n"

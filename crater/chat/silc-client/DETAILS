@@ -1,0 +1,21 @@
+          MODULE=silc-client
+         VERSION=1.0.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://silcnet.org/download/client/sources/
+      SOURCE_VFY=sha1:b6379c4bf3f4f02c7a4a0c3ce41bd4160ee73143
+        WEB_SITE=http://www.silcnet.org/
+         ENTERED=20020710
+         UPDATED=20060717
+           PSAFE=no
+           SHORT="client for connecting to silc servers"
+cat << EOF
+
+SILC (Secure Internet Live Conferencing) is a protocol which provides secure
+conferencing services on the Internet over insecure channel. SILC superficially
+resembles IRC, although they are very different internally. They both provide
+conferencing services and have almost the same set of commands. Other than
+that, they are nothing alike. The SILC is secure and the network model is
+entirely different compared to IRC. 
+
+EOF
+

@@ -1,0 +1,14 @@
+          MODULE=checkpolicy
+         VERSION=1.34.3
+          SOURCE=$MODULE-$VERSION.tgz
+      SOURCE_URL=http://www.nsa.gov/selinux/archives/
+      SOURCE_VFY=sha1:e3129ef88a949da6f747e06b4f40df140f4a1f0e
+        WEB_SITE=http://www.nsa.gov/selinux/
+         ENTERED=20060214
+         UPDATED=20070928
+           SHORT="SELinux binary policy compiler"
+
+cat << EOF
+This is the checkpolicy policy compiler, which is needed to
+compile policies to the binary form used by the kernel.
+EOF

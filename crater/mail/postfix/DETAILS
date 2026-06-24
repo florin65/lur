@@ -1,0 +1,16 @@
+          MODULE=postfix
+         VERSION=2.5.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+      SOURCE_VFY=sha1:d611ac3b6f0536a9320b355a76bd345997f08b7b
+        WEB_SITE=http://www.postfix.org
+         ENTERED=20020125
+         UPDATED=20080124
+           SHORT="MTA"
+
+cat << EOF
+Postfix provides an alternative to the widely-used Sendmail program. 
+Postfix attempts to be fast, easy to administer, and hopefully secure, 
+while at the same time being sendmail compatible enough to not upset 
+your users.
+EOF

@@ -1,0 +1,16 @@
+          MODULE=zlib
+         VERSION=1.2.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/libpng/
+      SOURCE_VFY=sha1:967e280f284d02284b0cd8872a8e2e04bfdc7283
+        WEB_SITE=http://www.gzip.org/$MODULE
+         ENTERED=20010922
+         UPDATED=20050718
+           SHORT="lossless data compression library."
+
+cat << EOF
+zlib is designed to be a free, general-purpose, legally unencumbered --
+that is, not covered by any patents -- lossless data-compression library
+for use on virtually any computer hardware and operating system. The
+zlib data format is itself portable across platforms.
+EOF

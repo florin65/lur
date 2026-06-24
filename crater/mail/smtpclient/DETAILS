@@ -1,0 +1,17 @@
+          MODULE=smtpclient
+         VERSION=1.0.1
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://download.lunar-linux.org/lunar/mirrors/
+        WEB_SITE=http://www.engelschall.com/sw/smtpclient/
+         ENTERED=20030713
+         UPDATED=20030713
+      MAINTAINER=csm@moongroup.com
+           SHORT="a minimal SMTP client"
+
+cat << EOF
+This program is a minimal SMTP client that takes an email message body and passes it on to a SMTP server (default is the MTA on the local host). Since it is completely self-supporting, it is especially suitable for use in restricted environments.
+
+It is used by me to handle private port email with spamassassin and postfix.
+
+See http://jessen.ch/articles/enidans-spamassassin.shtml for details!
+EOF

@@ -1,0 +1,15 @@
+          MODULE=mjpegtools
+         VERSION=1.8.0
+          SOURCE=${MODULE}-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/mjpeg/
+      SOURCE_VFY=sha1:e11d68298a64b52f98724dbf3fd14f168e140290
+        WEB_SITE=http://mjpeg.sourceforge.net
+         ENTERED=20021207
+         UPDATED=20060118
+           PSAFE=no
+           SHORT="Tools for working with MJPEG/MPEG files"
+cat << EOF
+The mjpeg programs are a set of tools that can do recording of videos
+and playback, simple cut-and-paste editing and the MPEG compression of
+audio and video under Linux.
+EOF

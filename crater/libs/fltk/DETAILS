@@ -1,0 +1,17 @@
+          MODULE=fltk
+         VERSION=1.1.7
+          SOURCE=$MODULE-$VERSION-source.tar.bz2
+   SOURCE_URL[0]=http://ftp.easysw.com/pub/$MODULE/$VERSION/
+   SOURCE_URL[1]=ftp://ftp.funet.fi/pub/mirrors/ftp.easysw.com/pub/$MODULE/$VERSION/
+      SOURCE_VFY=sha1:16b174522920403af1e4ccddd36daaefda3765c8
+        WEB_SITE=http://www.fltk.org/
+         ENTERED=20011129
+         UPDATED=20060122
+      MAINTAINER=tchan@lunar-linux.org
+         GARBAGE=off
+           SHORT="fast light graphical toolkit for X11."
+cat << EOF
+FLTK (pronounced "fulltick") is a LGPL'd C++ graphical user interface
+toolkit for X (UNIX®), OpenGL, and WIN32 (Microsoft® Windows® 95,
+98, ME, NT 4.0, and 2000).
+EOF

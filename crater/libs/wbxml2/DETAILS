@@ -1,0 +1,14 @@
+          MODULE=wbxml2
+         VERSION=0.9.0
+          SOURCE=$MODULE-$VERSION-src.tar.gz
+   SOURCE_URL[0]=$SFORGE_URL/wbxmllib/
+      SOURCE_VFY=sha1:6f8afd4df15521dc77c705ab48ee2252e07b6f77
+        WEB_SITE=http://wbxmllib.sf.net
+         ENTERED=20040429
+         UPDATED=20040429
+           SHORT="A library to parse, encode and handle WBXML documents."
+
+cat << EOF
+ The WBXML Library (aka libwbxml) contains a library and its associated 
+tools to Parse, Encode and Handle WBXML documents.
+EOF

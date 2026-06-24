@@ -1,0 +1,19 @@
+          MODULE=qalculate-gtk
+         VERSION=0.9.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/qalculate/
+      SOURCE_VFY=sha1:1f69097457f6e28b67d1d767670dc519548876b5
+        WEB_SITE=http://qalculate.sf.net
+         ENTERED=20060420
+         UPDATED=20071202
+           SHORT="Powerful GTK+-2 based calculator and plotting tool"
+      MAINTAINER=jannis@lunar-linux.org
+
+cat << EOF
+Qalculate! is a multi-purpose desktop calculator for GNU/Linux. It is 
+small and simple to use but with much power and versatility underneath. 
+Features include customizable functions, units, arbitrary precision, 
+plotting, and a user-friendly interface (KDE or GTK+). 
+
+This package contains the GTK+-2 frontend.
+EOF

@@ -1,0 +1,16 @@
+          MODULE=dbus-python
+         VERSION=0.80.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://dbus.freedesktop.org/releases/$MODULE/
+      SOURCE_VFY=sha1:b099c645ecc7e8aac86e7f5a8f6cbbf818a63654
+        WEB_SITE=http://www.freedesktop.org/wiki/Software_2fDBusBindings
+         ENTERED=20061126
+         UPDATED=20070207
+           SHORT="The D-BUS Python bindings"
+
+cat << EOF
+The D-Bus Python bidings.
+
+More information available at:
+http://www.freedesktop.org/wiki/Software_2fDBusBindings
+EOF

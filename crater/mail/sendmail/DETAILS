@@ -1,0 +1,19 @@
+          MODULE=sendmail
+         VERSION=8.14.2
+          SOURCE=$MODULE.$VERSION.tar.gz
+   SOURCE_URL[0]=ftp://ftp.sendmail.org/pub/$MODULE/
+   SOURCE_URL[1]=http://www.sendmail.org/ftp/
+      SOURCE_VFY=sha1:2b92a1d439374249ef6bf024cfb8072902c5682a
+        WEB_SITE=http://www.sendmail.org/
+         ENTERED=20010922
+         UPDATED=20071102
+           SHORT="The de-facto SMTP server"
+
+cat << EOF
+Sendmail is the de-facto standard SMTP server for relaying e-mail
+around the world. Sendmail is a very complex server that allows great
+flexibility but at the cost of complexity. It's installation is lengthy
+and configuration can be a nightmare, be warned. Fortunately it is the
+most reliable mailserver around so almost any major e-mail provider
+runs this.
+EOF

@@ -1,0 +1,21 @@
+          MODULE=ORBit2
+         VERSION=2.14.11
+           MAJOR=2.14
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
+      SOURCE_VFY=sha1:eea2ad5125a6cb67111264493e7bfa8f6e729fbd
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20020714
+         UPDATED=20080127
+           PSAFE="no"
+           SHORT="High-performance CORBA Object Request Broker"
+
+cat << EOF
+ORBit is a high-performance CORBA (Common Object Request Broker
+Architecture) ORB (object request broker). It allows programs to
+send requests and receive replies from other programs, regardless
+of the locations of the two programs. CORBA is an architecture that
+enables communication between program objects, regardless of the
+programming language they're written in or the operating system they
+run on.
+EOF

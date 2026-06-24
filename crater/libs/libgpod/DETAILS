@@ -1,0 +1,14 @@
+          MODULE=libgpod
+         VERSION=0.5.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=$SFORGE_URL/gtkpod/
+      SOURCE_VFY=sha1:fc9b26868710dcb24e758d7bd2bc52ee8532e16c
+        WEB_SITE=http://www.gtkpod.org/
+         ENTERED=20060110
+         UPDATED=20070916
+           SHORT="shared library to access the contents of an iPod"
+cat << EOF
+libgpod is a shared library to access the contents of an iPod. This
+library is based on code used in the gtkpod project. Starting with
+V0.96.CVS gtkpod depends on this library.
+EOF

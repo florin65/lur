@@ -1,0 +1,18 @@
+          MODULE=qtiplot
+         VERSION=0.8.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
+					SOURCE2=liborigin-20060616.tar.gz
+      SOURCE_URL=http://soft.proindependent.com/src
+			SOURCE2_URL=http://liborigin.sourceforge.net/
+			SOURCE_VFY=sha1:8eaf0fcf31887d0732a462e3b39a0c41ccfae7ff
+			SOURCE2_VFY=sha1:a0cf5045e7258bd27fc42c466f2faf3336392104
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE}-${VERSION}
+        WEB_SITE=http://soft.proindependent.com/qtiplot.html
+         ENTERED=20060516
+         UPDATED=20060915
+           SHORT="data analysis and plotting software"
+
+cat << EOF
+a free, platform independent clone of Origin 
+EOF
+

@@ -1,0 +1,17 @@
+          MODULE=gnutls
+         VERSION=2.0.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL[0]=http://josefsson.org/$MODULE/releases/
+   SOURCE_URL[1]=ftp://ftp.gnutls.org/pub/$MODULE/
+      SOURCE_VFY=sha1:985d86cb942b9d79abb5c8966439f23141ad803a
+        WEB_SITE=http://www.gnu.org/software/$MODULE/
+         ENTERED=20020212
+         UPDATED=20070904
+           SHORT="A TLS library"
+
+cat << EOF
+GnuTLS is a project that aims to develop a library which provides a 
+secure layer, over a reliable transport layer. Currently the GnuTLS 
+library implements the proposed standards by the IETF's TLS working 
+group.
+EOF

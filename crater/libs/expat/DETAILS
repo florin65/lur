@@ -1,0 +1,13 @@
+          MODULE=expat
+         VERSION=2.0.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:663548c37b996082db1f2f2c32af060d7aa15c2d
+        WEB_SITE=http://expat.sourceforge.net
+         ENTERED=20010928
+         UPDATED=20070606
+           SHORT="XML parsing library"
+
+cat << EOF
+Expat is a fast, non-validating, stream-oriented XML parsing library.
+EOF

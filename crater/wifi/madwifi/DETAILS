@@ -1,0 +1,13 @@
+          MODULE=madwifi
+         VERSION=0.9.3.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:13df0e407de0f5b733e5ff1b660ce2fac048b206
+        WEB_SITE=http://www.madwifi.org/
+         ENTERED=20061213
+         UPDATED=20071019
+           SHORT="Wireless driver for Atheros chipset a/b/g cards"
+
+cat << EOF
+Wireless driver for Atheros chipset a/b/g cards.
+EOF

@@ -1,0 +1,18 @@
+          MODULE=xmame
+         VERSION=0.106
+          SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL[0]=http://x.mame.net/download/
+#  SOURCE_URL[1]=ftp://ftp.kaupp.us/pub/xmame/
+#  SOURCE_URL[1] contains .tar.gz not .tar.bz2 :-(
+      SOURCE_VFY=sha1:7ae50f869067e101e053ca18e6f788297fcad9e2
+       WEB_SITE=http://x.mame.net
+         ENTERED=20010922
+         UPDATED=20071112
+           PSAFE=no
+           SHORT="(coin-op) video game emulator."
+
+cat << EOF
+Xmame is the X11/Unix port of MAME. MAME is the Multiple Arcade Machine
+Emulator, an arcade (coin-op) video game emulator. The latest stable
+release is capable of playing over 2000 arcade games.
+EOF

@@ -1,0 +1,4 @@
+depends  libxml2     &&
+depends  libdvdread  &&
+depends  libmad      &&
+depends  a52dec

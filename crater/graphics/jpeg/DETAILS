@@ -1,0 +1,17 @@
+          MODULE=jpeg
+         VERSION=6b
+          SOURCE=${MODULE}src.v$VERSION.tar.gz
+         SOURCE2=$MODULE-patches-0.1.tar.bz2
+      SOURCE_URL=ftp://ftp.uu.net/graphics/$MODULE/
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha1:7079f0d6c42fad0cfba382cf6ad322add1ace8f9
+     SOURCE2_VFY=sha1:bebf6de61cae5ccedfc05897687fd6edbe8cbd6d
+        WEB_SITE=http://www.ijg.org/
+         ENTERED=20010922
+         UPDATED=20061202
+           SHORT="A library that supports the JPEG image format"
+
+cat << EOF
+libjpeg supplies support functions for the image format "JPEG", to
+programs that are linked to it.
+EOF

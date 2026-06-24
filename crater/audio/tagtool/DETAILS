@@ -1,0 +1,16 @@
+          MODULE=tagtool
+         VERSION=0.12.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:e7ed4ebf8f9881cf38b2340b18e95947f658308e
+        WEB_SITE=http://pwp.netcabo.pt/paol/tagtool/
+         ENTERED=20020116
+         UPDATED=20070620
+           SHORT="a program to edit ID3 tags"
+
+cat << EOF
+Audio Tag Tool is a program to manage the information fields in MP3 and
+Ogg Vorbis files, commonly called tags.  Tag Tool can be used to edit 
+tags one by one, but the most useful features are the ability to easily
+tag or rename hundreds of files at once, in any desired format.
+EOF

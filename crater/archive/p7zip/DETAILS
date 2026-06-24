@@ -1,0 +1,17 @@
+          MODULE=p7zip
+         VERSION=4.57
+          SOURCE=${MODULE}_${VERSION}_src_all.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE}_${VERSION}
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:eda5de3d35567e2633373dbe60313527a6a4db27
+        WEB_SITE=http://p7zip.sourceforge.net
+         ENTERED=20060922
+         UPDATED=20071216
+           SHORT="A quick port of the command line version of 7zip"
+
+cat << EOF
+p7zip is a quick port of 7z.exe and 7za.exe (command line version
+of 7zip, see www.7-zip.org) for Unix. 7-Zip is a file archiver with
+highest compression ratio. Since 4.10, p7zip (like 7-zip) supports
+little-endian and big-endian machines.
+EOF

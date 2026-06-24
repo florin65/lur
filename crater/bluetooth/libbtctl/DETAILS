@@ -1,0 +1,14 @@
+          MODULE=libbtctl
+         VERSION=0.9.0
+           MAJOR=0.9
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:0bbeac7ac22dff5b352e2fb4944cf0c679ffdd74
+        WEB_SITE=http://usefulinc.com/software/gnome-bluetooth
+         ENTERED=20030930
+         UPDATED=20070727
+           SHORT="Bluetooth control library for gnome-bluetooth"
+           PSAFE=no
+cat << EOF
+libbtctl is a Bluetooth control library for gnome-bluetooth
+EOF

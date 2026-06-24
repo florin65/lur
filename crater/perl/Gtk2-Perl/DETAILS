@@ -1,0 +1,18 @@
+          MODULE=Gtk2-Perl
+         VERSION=1.162
+          SOURCE=Gtk2-$VERSION.tar.gz
+   SOURCE_URL[0]=http://search.cpan.org/CPAN/authors/id/T/TS/TSCH/
+   SOURCE_URL[1]=$SFORGE_URL/gtk2-perl/
+      SOURCE_VFY=sha1:979b74bda00a1164ba5234e9d0e7dfa5b604265d
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Gtk2-$VERSION
+        WEB_SITE=http://sourceforge.net/projects/gtk2-perl/
+         ENTERED=20040712
+         UPDATED=20071117
+           SHORT="Perl interface to gtk+-2"
+
+cat << EOF
+Perl bindings to the 2.x series of the Gtk+ widget set. This module
+allows you to write graphical user interfaces in a perlish and
+object-oriented way, freeing you from the casting and memory management
+in C, yet remaining very close in spirit to original API.
+EOF

@@ -1,0 +1,12 @@
+          MODULE=XML-Twig
+         VERSION=3.29
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/
+      SOURCE_VFY=sha1:649afe3513177f9ec34d7d04ca9e0755f9530942
+        WEB_SITE=http://xmltwig.com/xmltwig/
+         ENTERED=20030529
+         UPDATED=20070320
+           SHORT="Perl tree mode XML processor"
+cat << EOF
+Perl tree mode XML processor
+EOF

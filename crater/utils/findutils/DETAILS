@@ -1,0 +1,19 @@
+          MODULE=findutils
+         VERSION=4.2.32
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$GNU_URL/$MODULE/
+      SOURCE_VFY=sha1:9da09b76315ec8c9f4b12885f698a98d9353fe53
+        WEB_SITE=http://www.gnu.org/software/findutils
+         ENTERED=20010922
+         UPDATED=20080127
+           SHORT="Contains utilities for locating files"
+
+cat << EOF
+findutils - Finds and then operates on files
+The program includes:
+find        -  finds files that match certain criteria performs 
+           arbitrary operations on them interactively and
+           in shell scripts
+locate        -  scans a database for file names that match a pattern 
+xargs        -  applies a command to a list of files
+EOF

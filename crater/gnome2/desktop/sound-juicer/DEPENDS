@@ -1,0 +1,4 @@
+depends libgnomeui &&
+depends nautilus-cd-burner &&
+depends libmusicbrainz &&
+depends gnome-media2

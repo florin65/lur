@@ -1,0 +1,10 @@
+# We dont want /var/heimdal tracked
+
+if [ ! -d /var/heimdal ]; then
+   mkdir /var/heimdal
+fi
+
+DEPS="$(lvu depends heimdal)"
+if [ -n "$DEPS" ]; then
+  lunar fix $DEPS
+fi

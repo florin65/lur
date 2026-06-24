@@ -1,0 +1,4 @@
+depends  gc
+depends  ncurses
+
+optional_depends  "openssl" "" "" "for SSL support"

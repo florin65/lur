@@ -1,0 +1,16 @@
+          MODULE=stella
+         VERSION=2.4
+          SOURCE=$MODULE-$VERSION-src.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:549da0dba4ca337974fd1f3a287fd9571adc389b
+        WEB_SITE=http://stella.sourceforge.net/
+         ENTERED=20030216
+         UPDATED=20070820
+           SHORT="A multi-platform Atari 2600 VCS emulator"
+
+cat << EOF
+The Atari 2600 Video Computer System (VCS), introduced in 1977,
+was the most popular home video game system of the early 1980's.
+Stella is able to play almost all 2600 games with sound and at 
+full speed.
+EOF

@@ -1,0 +1,19 @@
+          MODULE=speex
+         VERSION=1.1.12
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://downloads.us.xiph.org/releases/speex/
+      SOURCE_VFY=sha1:8d52c5fc51ae5fd3b1297e5aaa48872dd045a671
+        WEB_SITE=http://www.speex.org
+         ENTERED=20031027
+         UPDATED=20060216
+           SHORT="An OSF patent-free audio compression format for speech"
+           PSAFE=no
+
+cat << EOF
+Speex is an Open Source/Free Software  patent-free audio compression 
+format designed for speech. The Speex Project aims to lower the barrier 
+of entry for voice applications by providing a free alternative to 
+expensive proprietary speech codecs. Moreover, Speex is well-adapted to 
+Internet applications and provides useful features that are not present 
+in most other codecs.
+EOF

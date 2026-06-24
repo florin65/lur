@@ -1,0 +1,3 @@
+depends tk
+depends cdrkit
+depends dvd+rw-tools

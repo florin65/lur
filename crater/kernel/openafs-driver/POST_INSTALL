@@ -1,0 +1,44 @@
+case `uname -r` in
+  2.6.*) 
+    kv="26"
+    ;;
+  2.4.*) 
+    kv="24"
+    ;;
+  *) 
+    message "Unsupported kernel version!"
+    exit -1
+    ;;
+esac
+
+case `arch` in
+  x86_64)
+    sysname="amd64_linux${kv}"
+    ;;
+  i386|i486|i586|i686|athlon)
+    sysname="i386_linux${kv}"
+    ;;
+  *)
+    sysname="`arch`_linux${kv}"
+    ;;
+esac
+
+KVER=$(if [ -f /usr/src/linux/include/linux/utsrelease.h ] ; then
+  grep UTS_RELEASE /usr/src/linux/include/linux/utsrelease.h | cut -d'"' -f2
+else
+  grep UTS_RELEASE /usr/src/linux/include/linux/version.h | cut -d'"' -f2
+fi)
+
+MODDIR=$(expr $SOURCE_DIRECTORY/src/libafs/MODLOAD-*)
+
+if [ "$kv" == "26" ]; then
+  [ -f ${MODDIR}/libafs.ko ] || exit -1
+  mkdir -p /lib/modules/${KVER}/kernel/fs/openafs
+  install -m 644 $MODDIR/libafs.ko /lib/modules/${KVER}/kernel/fs/openafs || exit -1
+else
+  [ -f ${MODDIR}/libafs.o ] || exit -1
+  mkdir -p /lib/modules/${KVER}/kernel/fs/openafs
+  install -m 644 $MODDIR/libafs.o /lib/modules/${KVER}/kernel/fs/openafs || exit -1
+fi
+
+depmod -a $KVER

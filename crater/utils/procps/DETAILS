@@ -1,0 +1,15 @@
+          MODULE=procps
+         VERSION=3.2.7
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://procps.sourceforge.net/
+      SOURCE_VFY=sha1:b60567cc6263167fa1a4ff6a5bea26db86022c10
+        WEB_SITE=http://procps.sourceforge.net/
+         ENTERED=20010922
+         UPDATED=20060627
+        SHORT="procps contains utilities to report the state of the box."
+
+cat << EOF
+procps is a package of utilities which report on the state of the system, 
+including the states of running processes, amount of memory available and 
+currently-logged-in users.
+EOF

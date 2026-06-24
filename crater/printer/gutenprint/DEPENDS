@@ -1,0 +1,16 @@
+depends ijs
+
+optional_depends "cups" \
+                 "--with-cups" \
+                 "--without-cups" \
+                 "to build CUPS drivers"
+
+optional_depends "%GHOSTSCRIPT" \
+                 "--with-ghostscript" \
+                 "--without-ghostscript" \
+                 "to build Ghostscript driver"
+
+optional_depends "foomatic-db-engine" \
+                 "--with-foomatic" \
+                 "--without-foomatic" \
+                 "for Foomatic spooler support"

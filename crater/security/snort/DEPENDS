@@ -1,0 +1,5 @@
+depends  chkconfig
+depends  libpcap
+depends  libtool
+
+optional_depends mysql "--with-mysql" "" "MySQL logging support"

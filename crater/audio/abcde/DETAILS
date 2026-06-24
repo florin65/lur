@@ -1,0 +1,15 @@
+          MODULE=abcde
+         VERSION=2.3.3
+          SOURCE=${MODULE}_${VERSION}.orig.tar.gz
+      SOURCE_URL=http://www.hispalinux.es/~data/files/
+      SOURCE_VFY=sha1:76486a0bcb4ac85d052e0d244da3abbeab3c5db0
+        WEB_SITE=http://www.hispalinux.es/~data/abcde.php
+         ENTERED=20031214
+         UPDATED=20050922
+           SHORT="Grabs tracks off a CD, encodes them to Ogg/Vorbis, MP3."
+
+cat << EOF
+abcde is a frontend command-line utility (actually, a shell script) that
+grabs tracks off a CD, encodes them to Ogg/Vorbis, MP3, FLAC or Ogg/Speex
+format, and tags them, all in one go.
+EOF

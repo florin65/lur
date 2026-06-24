@@ -1,0 +1,38 @@
+          MODULE=thunderbird
+         VERSION=2.0.0.9
+          SOURCE=thunderbird-$VERSION-source.tar.bz2
+         SOURCE2=thunderbird.desktop
+         SOURCE3=sm-xrender.patch
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/mozilla
+   SOURCE_URL[0]=http://ftp.mozilla.org/pub/mozilla.org/$MODULE/releases/$VERSION/source/
+   SOURCE_URL[1]=http://archive.progeny.com/mozilla.org/$MODULE/releases/$VERSION/source/
+      SOURCE_VFY=sha1:fede9db98f25adb978b84129a6d15a4dbe6bbb3e
+     SOURCE2_URL=$PATCH_URL
+     SOURCE2_VFY=sha1:a76c4e25bf4e491014c5bafbb07de096248a9931
+     SOURCE3_URL=$PATCH_URL
+     SOURCE3_VFY=sha1:cab357aa5854456ffd24713126e64a18b391a4cb
+        WEB_SITE=http://www.mozilla.org/projects/thunderbird
+         ENTERED=20031021
+         UPDATED=20071117
+           SHORT="A full-featured mail client"
+           PSAFE=no
+
+cat << EOF
+Thunderbird includes:
+
+* The ability to customize your toolbars the way you want them.
+  Choose View / Toolbars / Customize inside any window.
+* UI extensions can be added to Mozilla Thunderbird to customize your
+  experience with specific features and enhancements that you need. Support
+  for extensions. Extensions allow you to add features particular to your
+  needs such as offline mail support. A full list of available extensions can
+  be found here.
+* A new look and feel. Thunderbird also supports a large number of
+  downloadable themes which alter the appearance of the client.
+* An addressing sidebar for mail compose which makes it easy and convenient
+  to add address book contacts to emails.
+* Online help includes a FAQ, tips and tricks and other useful information.
+* Simplified preferences UI and menus.
+* Footprint and performance improvements.
+* Better Junk Mail Filtering Support
+EOF

@@ -1,0 +1,19 @@
+          MODULE=gnucash
+         VERSION=2.2.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=$SFORGE_URL/$MODULE/
+   SOURCE_URL[1]=http://ibiblio.org/pub/Linux/X11/gnome/sources/gnucash/
+   SOURCE_URL[2]=http://www.gnucash.org/pub/gnucash/sources/stable/
+      SOURCE_VFY=sha1:cf040f5eb934521303d4e758b3f0eef112dbb5af
+        WEB_SITE=http://www.gnucash.org
+      MAINTAINER=tchan@lunar-linux.org
+         ENTERED=20011105
+         UPDATED=20071220
+           SHORT="GNUCash a open source personal finance suite"
+cat << EOF
+GnuCash allows you to track bank accounts, stocks, income, and expenses.
+As quick and intuitive to use as a checkbook register, it is based on
+professional accounting principles to ensure balanced books and accurate
+reports. It is backed by an active development community and is
+blossoming into a full-fledged accounting system.
+EOF

@@ -1,0 +1,2 @@
+depends net6
+optional_depends howl "--with-howl" "" "for ZeroConf support"

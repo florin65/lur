@@ -1,0 +1,16 @@
+          MODULE=libgail-gnome
+         VERSION=1.18.0
+           MAJOR=1.18
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:ea197633601511de421bbf150a8151d340dcd86e
+        WEB_SITE=http://developer.gnome.org/projects/gap/
+         ENTERED=20020714
+         UPDATED=20070315
+           SHORT="the Gail libraries for GNOME"
+
+cat << EOF
+libgail-gnome is the GNOME Accessibility Implementation Library
+additions with implement ATK interfaces for libbonoboui and
+libgnomeui widgets.
+EOF

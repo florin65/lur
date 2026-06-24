@@ -1,0 +1,48 @@
+depends desktop-file-utils
+depends gdk-pixbuf
+depends autoconf-archive
+depends iso-codes
+depends pciutils
+depends dbus-glib
+depends pango
+depends intltool
+depends meson
+
+if [ "$ENABLE_GUI" == "y" ]; then
+  depends desktop-file-utils
+  depends gtk+-2
+fi
+
+
+optional_depends %OSSL \
+                 "-Dtls=enabled"  \
+                 "-Dtls=disabled" \
+                 "enable support for openSSL"
+
+optional_depends python \
+                 "-Dwith-python=python3" \
+                 "-Dwith-python=false" \
+                 "enable support for Python 3.x plugins"
+
+if module_installed luajit; then
+   optional_depends lua \
+                    "-Dwith-lua=luajit" \
+                    "-Dwith-lua=false" \
+                    "enable support for lua plugins"
+
+else
+   optional_depends lua \
+                    "-Dwith-lua=lua" \
+                    "-D-with-lua=false" \
+                    "enable support for lua plugins"
+fi
+
+optional_depends libcanberra \
+                 "-Dlibcanberra=enabled" \
+                 "-Dlibcanberra=disabled" \
+                 "enable support for sounds"
+
+optional_depends perl \
+                 "-Dwith-perl=perl" \
+                 "-Dwith-perl=false" \
+                 "enable support for perl plugins"

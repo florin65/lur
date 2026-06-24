@@ -1,0 +1,10 @@
+depends  git       &&
+depends  bash      &&
+depends  sed       &&
+depends  mktemp    &&
+depends  coreutils &&
+depends  rcs       &&
+depends  diffutils &&
+depends  patch     &&
+depends  wget      &&
+depends  openssh

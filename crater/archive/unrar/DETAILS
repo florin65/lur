@@ -1,0 +1,16 @@
+          MODULE=unrar
+        MYMODULE=unrarsrc
+         VERSION=3.7.8
+          SOURCE=$MYMODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.rarlab.com/rar/
+      SOURCE_VFY=sha1:b2146b8021274cd6a0a3b816b2ec6f241c62baea
+        WEB_SITE=http://www.rarlab.com
+         ENTERED=20011117
+         UPDATED=20070914
+      MAINTAINER=tchan@lunar-linux.org
+           SHORT="utility to extract, view, and test the contents of an RAR archive."
+
+cat << EOF
+unRAR is a utility to extract, view, and test the contents of an RAR
+archive, version 1.50 and above.
+EOF

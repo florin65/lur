@@ -1,0 +1,15 @@
+        MODULE=gtkmathview
+       VERSION=0.7.8
+        SOURCE=$MODULE-$VERSION.tar.gz
+    SOURCE_URL=http://helm.cs.unibo.it/mml-widget/sources/
+    SOURCE_VFY=sha1:51832e75436ceafaf426112167bd6b42011bd47d
+      WEB_SITE=http://helm.cs.unibo.it/mml-widget
+       ENTERED=20060921
+       UPDATED=20070529
+         SHORT="C++ rendering engine for MathML documents"
+
+cat << EOF
+GtkMathView is a C++ rendering engine for MathML documents. It
+provides an interactive view that can be used for browsing and
+editing MathML markup.
+EOF

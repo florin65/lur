@@ -1,0 +1,18 @@
+#Note; system cairo was removed back in version 2.53.9
+
+depends llvm
+depends pixman
+depends libvpx
+depends libffi
+depends libevent
+depends zip
+depends unzip
+depends nss
+depends icu4c
+depends alsa-lib
+depends freetype2
+depends curl
+depends gtk+-3
+depends libwebp
+depends pulseaudio
+

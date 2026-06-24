@@ -1,0 +1,17 @@
+          MODULE=Zope
+         VERSION=3.3.1
+          SOURCE=Zope-$VERSION.tgz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Zope-$VERSION
+      SOURCE_URL=http://www.zope.org/Products/Zope3/$MODULE/${VERSION}/
+      SOURCE_VFY=sha1:4576ac21c3415563d3b0b747e40963a762b63fce
+        WEB_SITE=http://www.zope.org/
+         ENTERED=20060108
+         UPDATED=20070216
+           SHORT="Python based web publishing system"
+
+cat << EOF
+Zope is a leading open source application server, specializing in
+content management, portals, and custom applications. Zope enables
+teams to collaborate in the creation and management of dynamic 
+web-based business applications such as intranets and portals.
+EOF

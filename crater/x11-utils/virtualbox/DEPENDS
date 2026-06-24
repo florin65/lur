@@ -1,0 +1,14 @@
+depends xalan-c++
+depends iasl
+depends dev86
+depends libxslt
+depends libXcursor
+depends qt3
+depends libIDL
+depends SDL 
+depends alsa-lib
+
+optional_depends "pulseaudio"                   \
+                 ""                             \
+                 "--disable-pulse"              \
+                 "for PulseAudio sound support"

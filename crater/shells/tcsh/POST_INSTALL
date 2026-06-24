@@ -1,0 +1,5 @@
+# Create symlinks for regular csh
+
+ln -sf /usr/bin/tcsh /usr/bin/csh
+ln -sf /usr/bin/tcsh /bin/csh
+

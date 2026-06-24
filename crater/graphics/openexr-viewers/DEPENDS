@@ -1,0 +1,2 @@
+depends OpenEXR
+depends openexr-ctl

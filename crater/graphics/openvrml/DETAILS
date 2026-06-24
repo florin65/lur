@@ -1,0 +1,17 @@
+          MODULE=openvrml
+         VERSION=0.17.4
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:be2a01208774d10430c64eca79f32aff0165694c
+        WEB_SITE=http://openvrml.sourceforge.net/
+         ENTERED=20011021
+         UPDATED=20080127
+           SHORT="A library for reading and displaying VRML97"
+
+cat << EOF
+OpenVRML is a C++ class library that allows applications to read
+VRML97 .wrl files and view their geometries.  It is also working
+toward full ISO VRML97 specification compliance.  While still in
+development, the codebase is quite stable and featureful.  Lookat,
+a basic Glut VRML viewer is included.
+EOF

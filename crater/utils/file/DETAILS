@@ -1,0 +1,15 @@
+          MODULE=file
+         VERSION=4.23
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=ftp://ftp.astron.com/pub/$MODULE/
+   SOURCE_URL[1]=ftp://ftp.gw.com/pub/unix/$MODULE/
+      SOURCE_VFY=sha1:83a90894a6b89f80207b9fcf0e382a627e4c5f0b
+        WEB_SITE=ftp://ftp.astron.com/pub/file
+         ENTERED=20010922
+         UPDATED=20071229
+           SHORT="File attempts to classify files by their content"
+
+cat << EOF
+File attempts to classify files depending on their contents and prints a
+description if a match is found.
+EOF

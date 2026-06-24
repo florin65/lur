@@ -1,0 +1,17 @@
+          MODULE=ruby
+         VERSION=1.8.6-p111
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://ftp.ruby-lang.org/pub/$MODULE/1.8/
+   SOURCE_URL[1]=http://gd.tuwien.ac.at/languages/$MODULE/
+      SOURCE_VFY=sha1:0872b2b7bdcd840efe218f55ae6c51e201449732
+        WEB_SITE=http://www.ruby-lang.org/en
+         ENTERED=20020106
+         UPDATED=20071004
+           SHORT="A scripting language"
+
+cat << EOF
+Ruby is the interpreted scripting language for quick and easy
+object-oriented programming. It has many features to process text files
+and to do system management tasks (like Perl). It is simple, straight
+foward extensible and portable.
+EOF

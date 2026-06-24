@@ -1,0 +1,18 @@
+          MODULE=allegro
+         VERSION=4.2.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/alleg/
+      SOURCE_VFY=sha1:1526fc87e028db9de0b94fd8d0697e47b91b15b7
+        WEB_SITE=http://alleg.sourceforge.net/
+         ENTERED=20020107
+         UPDATED=20070723
+           SHORT="Cross-platform game library"
+           PSAFE=no
+
+cat << EOF
+Allegro is a multi-platform game library that provides many functions
+for graphics, sounds, player input (keyboard, mouse, and joystick), and
+timers. It also provides fixed and floating point mathematical
+functions, 3D functions, file management functions, compressed datafile,
+and a GUI.
+EOF

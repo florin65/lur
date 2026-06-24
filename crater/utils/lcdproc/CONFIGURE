@@ -1,0 +1,1 @@
+mquery LCDPROC_BOOT "Invoke Lcdproc during boot?" y

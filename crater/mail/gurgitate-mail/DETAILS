@@ -1,0 +1,20 @@
+          MODULE=gurgitate-mail
+         VERSION=1.9.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
+      SOURCE_URL=http://www.dagbrown.com/software/$MODULE/
+      SOURCE_VFY=sha1:58c3659cd73f972533e05a42658c15d341039988
+        WEB_SITE=http://www.dagbrown.com/software/gurgitate-mail
+         ENTERED=20050922
+         UPDATED=20080120
+           SHORT="A highly-configurable mail delivery agent"
+
+cat << EOF
+Gurgitate-mail is a mail delivery agent. It has two things going for it:
+ * It's small and easy to use.
+ * It has configuration files in Ruby, which is approximately eight
+   thousand times easier to read and write than Procmail's line noise,
+   and yet much more powerful.
+ Contributed by Dave Brown, dagbrown@lart.ca
+EOF
+

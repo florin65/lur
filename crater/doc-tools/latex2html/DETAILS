@@ -1,0 +1,13 @@
+           MODULE=latex2html
+         VERSION=2002-2-1
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://saftsack.fs.uni-bayreuth.de/~latex2ht/current/
+        WEB_SITE=http://saftsack.fs.uni-bayreuth.de/~latex2ht
+         ENTERED=20010922
+         UPDATED=20030804
+           SHORT="perl script that converts LaTeX documents to HTML."
+cat << EOF
+LaTeX2HTML is a convertor written in Perl that converts 
+LaTeX documents to HTML. It is useful for the Web display of scientific
+papers.
+EOF

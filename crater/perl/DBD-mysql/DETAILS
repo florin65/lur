@@ -1,0 +1,19 @@
+          MODULE=DBD-mysql
+         VERSION=4.005
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://search.cpan.org/CPAN/authors/id/C/CA/CAPTTOFU/
+      SOURCE_VFY=sha1:e1a6e97a14d900817a4a08f13194f2d2e351ab48
+        WEB_SITE=http://search.cpan.org/search?dist=DBD::mysql
+         ENTERED=20020727
+         UPDATED=20071020
+           SHORT="the mysql and msql DBD modules for perl DBI"
+cat << EOF
+DBD::mysql:
+
+This is the perl5 Database Interface driver for the MySQL database.
+In other words: DBD::mysql is an interface between the Perl programming
+language and the MySQL programming API that comes with the MySQL relational
+database management system.  Most functions provided by the MySQL programming
+API are supported in DBD::mysql.  Some rarely used functions are missing,
+mainly because no one ever requested them.
+EOF

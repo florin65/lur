@@ -1,0 +1,2 @@
+install-info  --delete gzip  --info-dir /usr/info
+

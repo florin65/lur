@@ -1,0 +1,4 @@
+depends swig         &&
+depends subversion   &&
+depends pysqlite1     &&
+depends clearsilver

@@ -1,0 +1,17 @@
+          MODULE=qscintilla2
+           EXTRA=gpl-2.1
+         VERSION=1.73
+          SOURCE=QScintilla-$VERSION-$EXTRA.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/QScintilla-$VERSION-$EXTRA
+      SOURCE_URL=http://www.riverbankcomputing.com/Downloads/QScintilla2/
+      SOURCE_VFY=sha1:ca9ac61cc3d537d7b53202ff5d8565365c3f8734
+        WEB_SITE=http://www.riverbankcomputing.co.uk/qscintilla/index.php
+         ENTERED=20070528
+         UPDATED=20070603
+           SHORT="Port to Qt of Scintilla C++ editor class"
+
+cat << EOF
+QScintilla includes features especially useful when editing and 
+debugging source code. These include support for syntax styling, 
+error indicators, code completion and call tips.
+EOF

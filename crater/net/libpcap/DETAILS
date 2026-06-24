@@ -1,0 +1,17 @@
+          MODULE=libpcap
+         VERSION=0.9.8
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.tcpdump.org/release/
+      SOURCE_VFY=sha1:11dfe67cfc1c279c7346d626a99ad4ba90621028
+        WEB_SITE=http://www.tcpdump.org
+         ENTERED=20011004
+         UPDATED=20071216
+           SHORT="A capturing library used by tcpdump"
+
+cat << EOF
+This is a handy little library which provides a packet filtering
+mechanism based on the BSD packet filter (BPF). Most notably, tcpdump
+needs this to work, and there is also a perl module (still in beta)
+which can use this as well. In plain english, if you want to write your
+own network traffic analyzer, this is the place to start.
+EOF

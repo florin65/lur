@@ -1,0 +1,4 @@
+depends pygtk2 &&
+
+optional_depends "pyvorbis" "" "" "for integrated OGG support"   &&
+optional_depends "geoip-python" "" "" "for geographical user pin-pointing"

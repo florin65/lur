@@ -1,0 +1,15 @@
+          MODULE=Pygments
+         VERSION=0.9
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://pypi.python.org/packages/source/P/$MODULE/
+      SOURCE_VFY=sha1:2d5a3186a6b9c6f6e05c147eeb18af37b7937708
+        WEB_SITE=http://pygments.org/
+         ENTERED=20071008
+         UPDATED=20071015
+           SHORT="Python syntax highlighter"
+
+cat << EOF
+Pygments is a generic syntax highlighter for general use in all kinds of
+software such as forum systems, wikis or other applications that need to
+prettify source code.
+EOF

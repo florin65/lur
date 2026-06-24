@@ -1,0 +1,17 @@
+          MODULE=glabels
+         VERSION=2.2.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:19bffa3059e2297702ac4c05e8bfd48ec1fddcef
+        WEB_SITE=http://glabels.sourceforge.net/
+      MAINTAINER=nhudson@lunar-linux.org
+         ENTERED=20021013
+         UPDATED=20080105
+           SHORT="creates labels and business cards"
+
+cat << EOF
+gLabels is a lightweight program for creating labels and business cards
+for the GNOME desktop environment. It is designed to work with various
+laser/ink-jet peel-off label and business card sheets that you'll find
+at most office supply stores.
+EOF

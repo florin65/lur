@@ -1,0 +1,16 @@
+       MODULE=psi
+      VERSION=0.11
+       SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL=$SFORGE_URL/$MODULE/
+   SOURCE_VFY=sha1:834fac4b51d92e2502cb08d01d40f05ffcdce4a2
+     WEB_SITE=http://psi-im.org/
+   MAINTAINER="ratler@lunar-linux.org"
+      ENTERED=20040212
+      UPDATED=20071118
+        SHORT="Psi - an awesome client for the Jabber network."
+cat << EOF
+Psi is the premiere Instant Messaging application designed for Microsoft
+Windows, Apple Mac OS X and GNU/Linux. Built upon an open protocol named
+Jabber, Psi is a fast and lightweight messaging client that utilises the
+best in open source technologies.
+EOF

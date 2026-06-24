@@ -1,0 +1,1 @@
+mquery LIRC_BOOT "Invoke Lirc during boot?" y

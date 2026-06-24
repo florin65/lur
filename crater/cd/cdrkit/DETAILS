@@ -1,0 +1,22 @@
+          MODULE=cdrkit
+         VERSION=1.1.6
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://cdrkit.org/releases/
+      SOURCE_VFY=sha1:39fd5f9c500f4f084bd112bc103bed2785a8eb8b
+        WEB_SITE=http://cdrkit.org/
+         ENTERED=20070210
+         UPDATED=20070511
+           SHORT="CD and DVD media writting tools"
+
+cat << EOF
+Derived from the various programs distributed in the cdrtools suite, cdrkit
+aims to maintain interface compatibility with those tools. The cdrecord
+program has been renamed to wodim ("write optical disk media") so that users
+will not confuse it with the original cdrecord, which is still maintained by
+its author, Jorg Schilling. wodim, and the other programs distributed with
+cdrkit, will retain a user interface compatible with the corresponding
+programs from the cdrtools 2.01.01a08 release, at least for the near future.
+Thus, front-end programs, such as GUI-based CD writer applications, should be
+able to use cdrkit merely by substituting the name "wodim" for the name
+"cdrecord".
+EOF

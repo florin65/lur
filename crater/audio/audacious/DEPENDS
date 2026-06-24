@@ -1,0 +1,7 @@
+depends  libglade2  &&
+depends  libmcs     &&
+
+optional_depends  "libsamplerate"               \
+                  "--enable-samplerate"         \
+                  ""                            \
+                  "for sample rate conversion"

@@ -1,0 +1,13 @@
+       MODULE=libntlm
+      VERSION=0.4.1
+       SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL=http://josefsson.org/libntlm/releases/
+   SOURCE_VFY=sha1:4c9c6fc6007d3d6df11abd0c06daa6244a92c5ad
+     WEB_SITE=http://josefsson.org/libntlm/
+      ENTERED=20050811
+      UPDATED=20080114
+        SHORT="implement Microsoft's NTLM authentication"
+
+cat << EOF
+library that implement Microsoft's NTLM authentication
+EOF

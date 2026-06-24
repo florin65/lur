@@ -1,0 +1,15 @@
+          MODULE=devhelp
+         VERSION=0.17
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/0.17/
+      SOURCE_VFY=sha1:2c53d2852f03e7307a61a1d09636f7bcffbcf30d
+        WEB_SITE=http://developer.imendio.com/projects/devhelp
+         ENTERED=20030720
+         UPDATED=20080108
+           SHORT="an API documentation browser for GNOME 2"
+
+cat << EOF
+Devhelp is an API documentation browser for GNOME 2.  It works natively
+with Gtk-doc (System used in GTK+ and GNOME for documentating APIs) and
+it is possible to create books for other documentation as well.
+EOF

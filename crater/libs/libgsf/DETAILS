@@ -1,0 +1,16 @@
+          MODULE=libgsf
+           MAJOR=1.14
+         VERSION=1.14.7
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:9950e42db36007591af2d5783bdf68dc73f47d1b
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20021118
+         UPDATED=20071104
+           SHORT="Provides an API to access OLE2 streams"
+
+cat << EOF
+libgsf provides an API to access OLE2 streams as used by Microsoft
+in their compound files. Such common file formats as Excel, Word,
+Powerpoint, and Visio use this system.
+EOF

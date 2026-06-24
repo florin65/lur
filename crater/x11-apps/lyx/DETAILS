@@ -1,0 +1,22 @@
+          MODULE=lyx
+         VERSION=1.5.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=ftp://ftp.lyx.org/pub/lyx/stable/
+      SOURCE_VFY=sha1:828c7e03329cf65dcc9331fdf00b73cc8367e4f9
+        WEB_SITE=http://www.lyx.org/
+         ENTERED=20020904
+         UPDATED=20071221
+           SHORT="A GUI LaTeX editor"
+      MAINTAINER=jannis@lunar-linux.org
+
+cat << EOF
+LyX is an advanced open source document processor that encourages an
+approach to writing based on the structure of your documents, not their
+appearance. LyX lets you concentrate on writing, leaving details of
+visual layout to the software.
+ 
+LyX produces high quality, professional output -- using LaTeX, an
+industrial strength typesetting engine, in the background; LyX is far
+more than a front-end to LaTeX, however. No knowledge of LaTeX is
+necessary to use LyX, although it will give a user more power. 
+EOF

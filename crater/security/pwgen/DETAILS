@@ -1,0 +1,14 @@
+          MODULE=pwgen
+         VERSION=2.05
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:73b34964f9f43a59b8511ce94266b7e7b5f6505e
+        WEB_SITE=http://sourceforge.net/projects/$MODULE/
+         ENTERED=20040420
+         UPDATED=20060116
+           SHORT="Create human readable passwords"
+
+cat << EOF
+Pwgen is a small, GPL'ed password generator which creates passwords
+which can be easily memorized by a human.
+EOF

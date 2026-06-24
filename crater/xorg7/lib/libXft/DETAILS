@@ -1,0 +1,15 @@
+          MODULE=libXft
+         VERSION=2.1.12
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$XORG_URL/individual/lib/
+      SOURCE_VFY=sha1:c55fb1b79e6e8459a343e4986f0607a438eff340
+   MODULE_PREFIX=${X11R7_PREFIX:-/usr}
+        WEB_SITE=http://www.x.org/
+         ENTERED=20070216
+         UPDATED=20070216
+           SHORT="the X.Org FreeType-based font drawing library"
+
+cat << EOF
+libXft provides X applications access to the FreeType rasterization of
+fonts.
+EOF

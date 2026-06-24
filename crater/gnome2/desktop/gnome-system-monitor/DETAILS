@@ -1,0 +1,16 @@
+          MODULE=gnome-system-monitor
+         VERSION=2.20.1
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:d14ca0b41d95bd533b875c58152cb9dddfbee631
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20050316
+         UPDATED=20071103
+           SHORT="process viewer and system resource monitor for GNOME 2"
+
+cat << EOF
+gnome-system-monitor allows you to graphically view and manipulate the
+running processes on your system.  It also provides an overview of
+available resources such as CPU and memory.
+EOF

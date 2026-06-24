@@ -1,0 +1,17 @@
+          MODULE=glade3
+         VERSION=3.4.1
+           MAJOR=3.4
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:09a02307674ee71612a37e476c6f19c91a70c321
+        WEB_SITE=http://glade.gnome.org/
+         ENTERED=20060813
+         UPDATED=20071222
+           SHORT="a GTK+-2 user interface builder for developers"
+
+cat << EOF
+Glade-3 is a RAD tool to enable quick and easy development of GTK+-2
+user interfaces.  It also contains built-in support for generating the
+C source code needed to recreate the interfaces.  Glade-3 is designed
+as a replacment for glade-2.
+EOF

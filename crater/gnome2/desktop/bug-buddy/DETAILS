@@ -1,0 +1,15 @@
+          MODULE=bug-buddy
+         VERSION=2.20.1
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:ef6f82b2444e3b72bd6ac4197086d9b1697ae928
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20020716
+         UPDATED=20071031
+           SHORT="Bug/crash submittal tool for GNOME"
+
+cat << EOF
+Bug-buddy is a graphical bug reporting utility for GNOME. It allows users
+to easily make quality bug reports.
+EOF

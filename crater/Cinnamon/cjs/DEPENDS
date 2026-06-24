@@ -1,0 +1,5 @@
+depends cairo
+depends mozjs78
+depends dbus-glib
+depends gobject-introspection
+depends libffi

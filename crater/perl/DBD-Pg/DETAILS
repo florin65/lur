@@ -1,0 +1,13 @@
+          MODULE=DBD-Pg
+         VERSION=1.49
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://search.cpan.org/CPAN/authors/id/D/DB/DBDPG/
+      SOURCE_VFY=sha1:37c1c37a02afa00d48f8dd739d5d8502a7c40045
+        WEB_SITE=http://gborg.postgresql.org/project/dbdpg/projdisplay.php
+         ENTERED=20030823
+         UPDATED=20070526
+           SHORT="DBD-Pg (PostgreSQL) module for perl DBI"
+
+cat << EOF
+DBD-Pg is a PostgreSQL interface for Perl5 using DBI.
+EOF

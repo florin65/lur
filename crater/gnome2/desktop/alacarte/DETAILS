@@ -1,0 +1,15 @@
+          MODULE=alacarte
+         VERSION=0.11.3
+           MAJOR=0.11
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
+      SOURCE_VFY=sha1:4e6e2e53dfe17f72b21bd65a3c2676452a151240
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20060908
+         UPDATED=20070315
+           SHORT="A GNOME menu editor application"
+
+cat << EOF
+Alacarte is a menu editor for GNOME that follows the freedesktop.org
+menu specification.
+EOF

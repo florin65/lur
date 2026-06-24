@@ -1,0 +1,30 @@
+          MODULE=gajim
+         VERSION=0.11.3
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=http://www.gajim.org/downloads/
+      SOURCE_VFY=sha1:c51ba6118f73b571ce10c521727caa3c5c49180a
+        WEB_SITE=http://www.gajim.org/
+         ENTERED=20070207
+         UPDATED=20071201
+           SHORT="Jabber client based on PyGTK"
+      MAINTAINER="jannis@lunar-linux.org"
+
+cat << EOF
+The goal of Gajim is to provide a full featured and easy to use Jabber 
+client. Gajim works nicely with GNOME, but does not require it to run. 
+It is released under the GNU General Public License.
+
+Features:
+  # Tabbed chat window
+  # Group chat support (with MUC protocol)
+  # Emoticons, Avatars, File transfer, Room Bookmarks
+  # Metacontacts Support
+  # Trayicon, Speller, extented chat history functionalities
+  # TLS and GPG support (with SSL legacy support)
+  # Transport Registration support
+  # Service Discovery including Nodes
+  # Wikipedia, dictionary and search engine lookup
+  # Multiple accounts support
+  # DBus Capabilities. Read more information
+  # XML Console 
+EOF

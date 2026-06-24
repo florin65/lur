@@ -1,0 +1,15 @@
+          MODULE=evolution-data-server
+         VERSION=1.12.1
+           MAJOR=1.12
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:3d91c87c257ee080baf0f182dd46079752f427ed
+        WEB_SITE=http://gnome.org/projects/evolution/
+         ENTERED=20011109
+         UPDATED=20071104
+           SHORT="backend data manager for Evolution"
+           PSAFE=no
+cat << EOF
+Evolution Data Server is the backend data server for Evolution
+EOF
+

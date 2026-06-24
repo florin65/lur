@@ -1,0 +1,13 @@
+       MODULE=geda-gnetlist
+      VERSION=1.2.0
+      REL_VER=v1.2
+       SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL[0]=http://geda.seul.org/release/$REL_VER/$VERSION/
+   SOURCE_VFY=sha1:768ddc8673cd7c7a8a2574ef3bea762a21934258
+     WEB_SITE=http://geda.seul.org/tools/gnetlist/index.html
+      ENTERED=20030117
+      UPDATED=20070917
+        SHORT="Net list creation for gEDA"
+cat << EOF
+Net list creation for gEDA
+EOF

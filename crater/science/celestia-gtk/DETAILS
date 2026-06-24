@@ -1,0 +1,20 @@
+          MODULE=celestia-gtk
+         VERSION=1.4.1
+          SOURCE=celestia-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/celestia-$VERSION
+      SOURCE_URL=$SFORGE_URL/celestia/
+      SOURCE_VFY=sha1:37863498c43d3078b41027706bfa033bccd949a9
+        WEB_SITE=http://www.shatters.net/celestia/
+         ENTERED=20041202
+         UPDATED=20060619
+           SHORT="A 3D real-time space simulation"
+
+cat << EOF
+Celestia is a free real-time space simulation that lets you experience our
+universe in three dimensions. Unlike most planetarium software, Celestia
+doesn't confine you to the surface of the Earth. You can travel throughout
+the solar system, to any of over 100,000 stars, or even beyond the galaxy.
+
+This module is the GTK+-2 version (see the 'celestia' module for the
+kde/qt-based version)
+EOF

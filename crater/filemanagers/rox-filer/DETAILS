@@ -1,0 +1,16 @@
+          MODULE=rox-filer
+         VERSION=2.6.1
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/rox/
+      SOURCE_VFY=sha1:5364ac260970ecafa58f92892becf8104db025a3
+        WEB_SITE=http://rox.sourceforge.net
+         ENTERED=20020428
+         UPDATED=20070612
+           SHORT="fast and powerful graphical file manager."
+cat << EOF
+ROX-Filer is a fast and powerful graphical file manager for the X Window 
+System.
+
+You can use it as a small and fast filer within your current desktop, or get 
+it to manage your pinboard, panels and applications.
+EOF

@@ -1,0 +1,32 @@
+          MODULE=ctorrent
+         VERSION=dnh3.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.rahul.net/dholmes/ctorrent/
+      SOURCE_VFY=sha1:2d24cfb018794292b185efbbd7fde67b61bc8ce4
+        WEB_SITE=http://www.rahul.net/dholmes/ctorrent/
+#       WEB_SITE=http://ctorrent.sourceforge.net/
+         ENTERED=20040203
+         UPDATED=20070902
+           SHORT="A tiny but neat bittorrent client"
+
+cat << EOF
+CTorrent is a BitTorrent Client program by C for FreeBSD and Linux.
+Fast and small are CTorrent's two strengths. Since CTorrent has been abandoned
+by the original dev, this Enhanced CTorrent was forked, so I updated this
+module in moonbase to use the enhanced fork.
+
+The purpose of the Enhanced CTorrent effort is to fix problems that remain in
+the code, modernize existing features and algorithms, and implement new
+features while maintaining low overhead requirements and a high standard of
+performance (both part of the original CTorrent design philosophy). Highlights
+of the enhanced client include:
+
+   * Support for large files (>2GB) and large torrents (>255 files)
+   * Strategic selection of pieces to request for download
+   * Continuous queueing of download requests, tuned based on latency and throughput for each peer
+   * Improved download performance, including parallel requests in initial and endgame modes
+   * Improved bandwidth regulation
+   * Improved compatibility with other peers
+   * Performance optimization and bug fixes
+   * An interface for monitoring and managing multiple clients 
+EOF

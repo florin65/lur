@@ -1,0 +1,18 @@
+           MODULE=mp3blaster
+         VERSION=3.2.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE
+      SOURCE_VFY=sha1:33d0b4281b3547517045a5cf5e39372f2995d43c
+        WEB_SITE=http://mp3blaster.sourceforge.net/
+         ENTERED=20020106
+         UPDATED=20070218
+        SHORT="console mp3 player"
+        PSAFE="no"
+
+cat << EOF
+MP3Blaster is a text console based program for playing mainly mp3 audio
+files. It is very interactive, and has a great list of features. Its
+playlist can be divided in albums or categories (called 'groups'), which
+allows for very sophisticated playback orders. mpeg (and wavrec, which
+is bundled with this program)
+EOF

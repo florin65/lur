@@ -1,0 +1,12 @@
+          MODULE=Digest-HMAC
+         VERSION=1.01
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://www.cpan.org/authors/id/GAAS/
+        WEB_SITE=http://search.cpan.org/search?dist=Digest-HMAC
+         ENTERED=20020619
+         UPDATED=20020619
+      MAINTAINER=kongar@tsrsb.org.tr
+           SHORT="Keyed-Hashing for Message Authentication"
+cat << EOF
+Digest-HMAC is Keyed-Hashing for Message Authentication
+EOF

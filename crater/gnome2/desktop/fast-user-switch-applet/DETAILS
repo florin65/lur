@@ -1,0 +1,17 @@
+          MODULE=fast-user-switch-applet
+         VERSION=2.18.0
+           MAJOR=2.18
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:8bea178630ab5dc2ab4d542f76f4286dfd225b1b
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20070315
+         UPDATED=20071130
+           SHORT="a user-switching applet for the GNOME panel"
+
+cat << EOF
+The Fast User-Switching Applet is an applet for the GNOME panel which
+provides a menu to switch between users.  It integrates with GDM to
+switch between existing X11 sessions or create new ones as needed, and
+will show the same users as the GDM face browser.
+EOF

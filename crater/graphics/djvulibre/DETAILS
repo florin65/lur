@@ -1,0 +1,24 @@
+          MODULE=djvulibre
+         VERSION=3.5.22
+          SOURCE=$MODULE-$VERSION.tar.gz
+         SOURCE2=$MODULE-3.5.21-gcc-4.3.x.patch
+      SOURCE_URL=$SFORGE_URL/djvu
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha1:f869d4114052a7df7b8da2d334d124934f1293a6
+     SOURCE2_VFY=sha1:3441460691f78fb760bc2f30790778bc289ef558
+        WEB_SITE=http://djvu.sourceforge.net
+         ENTERED=20071027
+         UPDATED=20090623
+           SHORT="web-centric platform for distributing documents and images"
+           PSAFE=no
+   
+cat << EOF
+DjVu is a web-centric format and software platform for distributing documents
+and images. DjVu can advantageously replace PDF, PS, TIFF, JPEG, and GIF for
+distributing scanned documents, digital documents, or high-resolution pictures.
+DjVu content downloads faster, displays and renders faster, looks nicer on a
+screen, and consume less client resources than competing formats. DjVu images
+display instantly and can be smoothly zoomed and panned with no lengthy
+re-rendering. DjVu is used by hundreds of academic, commercial, governmental,
+and non-commercial web sites around the world.
+EOF

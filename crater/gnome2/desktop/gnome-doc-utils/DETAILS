@@ -1,0 +1,18 @@
+          MODULE=gnome-doc-utils
+         VERSION=0.12.0
+           MAJOR=0.12
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:e20c74ad415b9ddfdf6c8d663e22bf27c0b939c4
+        WEB_SITE=http://www.gnome.org/
+         ENTERED=20050315
+         UPDATED=20071104
+           SHORT="documentation utilities for the GNOME project"
+
+cat << EOF
+gnome-doc-utils is a collection of documentation utilities for the
+GNOME project.  Notably, it contains utilities for building
+documentation and all auxiliary files in your source tree, and it
+contains the DocBook XSLT stylesheets that were once distributed with
+Yelp.
+EOF

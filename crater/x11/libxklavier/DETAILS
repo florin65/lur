@@ -1,0 +1,16 @@
+          MODULE=libxklavier
+         VERSION=3.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/gswitchit
+      SOURCE_VFY=sha1:19312997d5ec929f4057cb33c3806d494606c5cf
+        WEB_SITE=http://www.freedesktop.org/wiki/Software/LibXklavier
+         ENTERED=20031201
+         UPDATED=20070926
+           SHORT="library providing high-level API for XKB"
+
+cat << EOF
+libxklavier is a library providing high-level API for X Keyboard 
+Extension known as XKB. This library is indended to support XFree86 
+and other commercial X servers. It is useful for creating XKB-related 
+software (layout indicators etc).
+EOF

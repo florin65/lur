@@ -1,0 +1,23 @@
+          MODULE=nss
+         VERSION=3.11.7
+         SUB_VER=with-nspr-4.6.7
+          SOURCE=$MODULE-$VERSION-$SUB_VER.tar.gz
+          SOURCE2=nss-3.11-fedora_fixes-1.patch
+      SOURCE_URL=http://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_11_7_RTM/src/
+     SOURCE2_URL=$PATCH_URL
+      SOURCE_VFY=sha1:c6f68bff0bcdfce41b713c78b75c12f5d4d18406
+     SOURCE2_VFY=sha1:efa36f9b25571b1ba30cd5900a3d646fc02c86d5
+        WEB_SITE=http://www.mozilla.org
+         ENTERED=20060418
+         UPDATED=20070919
+           PSAFE="no"
+           SHORT="a set of libraries to support development of security-enabled applications"
+cat << EOF
+The Network Security Services (NSS) package is a set of libraries
+designed to support cross-platform development of security-enabled
+client and server applications. Applications built with NSS can
+support SSL v2 and v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12,
+S/MIME, X.509 v3 certificates, and other security standards. This
+is useful for implementing SSL and S/MIME or other Internet security
+standards into an application.
+EOF

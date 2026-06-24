@@ -1,0 +1,17 @@
+          MODULE=biew
+         VERSION=564
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$SFORGE_URL/biew/
+      SOURCE_VFY=sha1:2db842d028f9c2adfeaacd256eb72995b3e36427
+        WEB_SITE=http://biew.sourceforge.net/en/biew.html
+         ENTERED=20020106
+         UPDATED=20070509
+           SHORT="binary file viewer/editor/disassembler"
+cat << EOF
+BIEW (Binary vIEW) is a free, portable, advanced file viewer with a
+built-in editor for binary, hexadecimal, and disassembler modes. It
+contains a highlight PentiumIII/K7Athlon/Cyrix-M2 disassembler, full
+preview of MZ, NE, PE, LE, LX, DOS.SYS, NLM, ELF, a.out, arch, coff32,
+PharLap, and rdoff executable formats, a code guider, and lot of other
+features.
+EOF

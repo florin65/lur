@@ -1,0 +1,14 @@
+          MODULE=File-MimeInfo
+         VERSION=0.14
+          SOURCE=File-MimeInfo-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_URL=http://search.cpan.org/CPAN/authors/id/P/PA/PARDUS/$MODULE/
+      SOURCE_VFY=sha1:5a375be72c3b9107cdb4ada65b3973bb33e4f474
+        WEB_SITE=http://search.cpan.org/search?dist=File-MimeInfo
+         ENTERED=20040728
+         UPDATED=20071019
+           SHORT="determine the mime type of a file"
+cat << EOF
+This module can be used to determine the mime type of a file. It tries
+to implement the freedesktop specification for a shared MIME database.
+EOF

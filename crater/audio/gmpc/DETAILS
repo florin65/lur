@@ -1,0 +1,16 @@
+          MODULE=gmpc
+         VERSION=0.15.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://download.sarine.nl/gmpc-$VERSION/
+      SOURCE_VFY=sha1:a2e8dee053f51545c5406f76a0dd766a34d76105
+        WEB_SITE=http://sarine.nl/home
+         ENTERED=20060421
+         UPDATED=20071118
+           SHORT="GTK+-2 based frontend to mpd (music player daemon)"
+
+cat << EOF
+GMPC is a frontend for the mpd (Music Player Daemon). It's focused on
+being fast and easy to use, while still making optimal use of all the
+functions in mpd.
+EOF
+

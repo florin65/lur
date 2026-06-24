@@ -1,0 +1,2 @@
+mquery USE_GRAPHICS "Enable graphics support?" y
+mquery USE_JSCRIPT "Enable javascript interpreter?" y

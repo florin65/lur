@@ -1,0 +1,16 @@
+          MODULE=ghex
+         VERSION=2.20.1
+           MAJOR=2.20
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR
+      SOURCE_VFY=sha1:768ebcec49d4628aaf8b3fcfc1fb7b977f0061f1
+        WEB_SITE=http://www.gnome.org
+         ENTERED=20021223
+         UPDATED=20071222
+           SHORT="a binary/hexadecimal editor"
+
+cat << EOF
+GHex is a simple binary editor, allowing the user to view and edit a
+binary file in both hex and ascii with multiple level undo/redo
+mechanism.
+EOF

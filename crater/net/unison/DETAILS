@@ -1,0 +1,16 @@
+          MODULE=unison
+         VERSION=2.13.16
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.cis.upenn.edu/~bcpierce/unison/download/releases/stable/
+      SOURCE_VFY=sha1:3f119f6a6e8bc5ade8933d4693075a768f0abf9a
+        WEB_SITE=http://www.cis.upenn.edu/~bcpierce/unison/
+         ENTERED=20050109
+         UPDATED=20051010
+           SHORT="unison file-synchronization tool for Unix and Windows"
+           PSAFE=no
+cat << EOF
+It allows two replicas of a collection of files and directories to be stored
+on different hosts (or different disks on the same host), modified separately,
+and then brought up to date by propagating the changes in each replica to the
+other.
+EOF

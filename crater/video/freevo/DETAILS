@@ -1,0 +1,16 @@
+      MODULE=freevo
+     VERSION=1.7.2
+      SOURCE=$MODULE-$VERSION.tar.gz
+  SOURCE_URL=$SFORGE_URL/$MODULE
+  SOURCE_VFY=sha1:8a7662ed7a9748b2b98ac4d691d209906b114bb6
+    WEB_SITE=http://freevo.sourceforge.net
+     ENTERED=20060806
+     UPDATED=20070610
+       SHORT="open-source home theatre PC platform"
+cat<< EOF
+Freevo is an open-source home theatre PC platform based on Linux and a 
+number of open-source audio/video tools. MPlayer and/or Xine can be 
+used to play audio and video files in most popular formats. Freevo can 
+be used both for a standalone PVR computer with a TV+remote, as well 
+as on a regular desktop computer using the monitor and keyboard.
+EOF

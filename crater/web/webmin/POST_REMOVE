@@ -1,0 +1,2 @@
+rm -fR /var/webmin
+rm -fR /var/log/webmin

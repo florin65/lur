@@ -1,0 +1,11 @@
+           MODULE=mergeant
+         VERSION=0.12.1
+          SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL[0]=$GNOME_URL/sources/$MODULE/0.12/
+        WEB_SITE=http://www.gnome-db.org
+         ENTERED=20020917
+         UPDATED=20030912
+           SHORT="A Frontend for GnomeDB"
+cat << EOF
+I nice GUI frontend for libgnomedb and libgda 
+EOF

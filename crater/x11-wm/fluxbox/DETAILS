@@ -1,0 +1,26 @@
+          MODULE=fluxbox
+              VERSION=1.0.0
+          SOURCE=$MODULE-$VERSION.tar.bz2
+   SOURCE_URL[0]=$SFORGE_URL/$MODULE/
+   SOURCE_URL[1]=http://$MODULE.org/download/
+      SOURCE_VFY=sha1:7985e35fbb170fda24b9e04610690cd04c7a8748
+        WEB_SITE=http://fluxbox.org/
+         ENTERED=20030325
+         UPDATED=20071009
+           SHORT="yet another windowmanager"
+    USE_WRAPPERS=no
+
+cat << EOF
+Fluxbox is yet another windowmanager.
+It is based on the Blackbox 0.61.1 code. Fluxbox looks like blackbox
+and handles styles, colors, window placement and similar thing exactly
+like blackbox. 
+
+FEATURES:
+Here are the major features of fluxbox:
+* Our custom keygrabber (support for emacs-styled kkeychains)
+* Iconbar (the toolbar shows minimized windows, one click and they pop back up)
+* Configurable titlebar (placement of buttons, new buttons etc)
+* Window tabs (see this page for more info and screenshot)
+In addition to all this many small fixes and minor features have been added
+EOF

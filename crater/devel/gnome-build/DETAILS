@@ -1,0 +1,16 @@
+          MODULE=gnome-build
+         VERSION=0.2.0
+           MAJOR=0.2
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:3c5674151ce9614663cae5073c1ac510e1060886
+        WEB_SITE=http://www.gnome.org/projects/devtools/gnomebuild.shtml
+         ENTERED=20060423
+         UPDATED=20071103
+           SHORT="the GNOME Build Framework (GBF)"
+
+cat << EOF
+gnome-build is the GNOME Build Framework (GBF).  It is a library to
+manage different product build systems such as automake project,
+makefile based project, etc.
+EOF

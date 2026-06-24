@@ -1,0 +1,21 @@
+          MODULE=perl
+### YOU MUST ALSO UPDATE SGMLSpm !!!
+         VERSION=5.10.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+   SOURCE_URL[0]=http://mirrors.kernel.org/cpan/src/
+   SOURCE_URL[1]=http://www.cpan.org/src/
+        WEB_SITE=http://www.perl.org
+      SOURCE_VFY=sha1:adf73606dd5248af7ccdd735bcaa0e628ea75b3c
+         ENTERED=20010922
+         UPDATED=20071221
+           PSAFE=no
+           SHORT="Larry Wall's practical extraction and reporting language"
+
+cat << EOF
+Perl is a high-level, general-purpose programming language that makes
+easy things easy and hard things possible. It is optimized for scanning
+arbitrary text files and system administration. It has built-in extended
+regular expression matching and replacement, a dataflow mechanism to
+improve security with setuid scripts and is extendable via modules that
+can interface to C libraries.
+EOF

@@ -1,0 +1,14 @@
+          MODULE=BitTorrent
+         VERSION=5.0.9
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://download.bittorrent.com/dl/
+      SOURCE_VFY=sha1:9f1b9b66736dac204b19bc5dc13f3dd10158c89c
+        WEB_SITE=http://www.bittorrent.com/
+         ENTERED=20020708
+         UPDATED=20070812
+           SHORT="A distributed server/client for data transfer"
+
+cat << EOF
+BitTorrent takes the weight off the server by utilizing other 
+BitTorrent clients and downloading data off of them.  
+EOF

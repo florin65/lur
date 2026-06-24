@@ -1,0 +1,20 @@
+           MODULE=rhythmbox
+         VERSION=0.9.4.1
+           MAJOR=0.9
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=$GNOME_URL/sources/$MODULE/$MAJOR/
+      SOURCE_VFY=sha1:dc59634de9471a14f62528c5a8453a284c74f7b0
+        WEB_SITE=http://www.gnome.org/projects/$MODULE/
+         ENTERED=20020730
+         UPDATED=20060506
+           SHORT="clone of the iTunes plyer for Gnome"
+
+cat << EOF 
+Rhythmbox which takes its inspiration from Apple's
+iTunes application, an application that lets you do everything from
+importing your audio cd's into mp3 or Ogg Vorbis format, and play
+these music files and other music files you have. Play your music with
+an assortment of visualization plugins and burn new audio cd's from
+your music files. It is a one-stop shopping application for all your
+music needs.
+EOF

@@ -1,0 +1,22 @@
+          MODULE=gkrellm2
+         VERSION=2.3.1
+          SOURCE=gkrellm-$VERSION.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/gkrellm-$VERSION
+      SOURCE_URL=http://members.dslextreme.com/users/billw/gkrellm/
+      SOURCE_VFY=sha1:f5e8206aeee93f5b3a6afff9cc55c58e9d511f56
+        WEB_SITE=http://www.gkrellm.net/
+      MAINTAINER=sofar@lunar-linux.org
+         ENTERED=20020814
+         UPDATED=20071204
+           SHORT="GKrellM monitors EVERYTHING"
+
+cat << EOF
+GKrellM is a GTK based stacked monitor program that charts SMP 
+CPUs, disk, load, active net interfaces, and internet connections.
+There are also monitors for memory and swap, file system with
+mount/umount feature, mailbox checking including POP3 and IMAP,
+clock/calendar, APM laptop battery, CPU temperatures, and uptime.
+It has LEDs for the net monitors and an on/off button and online timer
+for PPP.  There is a GUI popup for configuration, plugin extensions
+can be installed, and many themes are available.
+EOF

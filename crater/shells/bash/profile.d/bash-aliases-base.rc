@@ -1,0 +1,5 @@
+alias ls='ls --color=auto $LS_OPTIONS'
+alias 'cd..'='cd ..'
+alias '..'='cd ..'
+alias '...'='cd ../..'
+alias '~'='cd'

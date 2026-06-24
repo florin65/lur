@@ -1,0 +1,5 @@
+conflicts XOrg6      &&
+conflicts XOrg-test  &&
+conflicts mesa-lib   &&
+conflicts glut       &&
+conflicts freeglut

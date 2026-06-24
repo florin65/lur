@@ -1,0 +1,16 @@
+          MODULE=libdbi
+         VERSION=0.8.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=$SFORGE_URL/$MODULE/
+      SOURCE_VFY=sha1:c962248913853ecebaab88b19afd321a121ecf3d
+        WEB_SITE=http://libdbi.sourceforge.net/
+         ENTERED=20060904
+         UPDATED=20070416
+           SHORT="a database independent abstraction layer for C"
+
+cat << EOF
+libdbi implements a database-independent abstraction layer in C,
+similar to the DBI/DBD layer in Perl.  Writing one generic set of code,
+programmers can leverage the power of multiple databases and multiple
+simultaneous database connections by using this framework.
+EOF

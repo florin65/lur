@@ -1,0 +1,3 @@
+depends ocaml &&
+depends libglade2 &&
+depends librsvg

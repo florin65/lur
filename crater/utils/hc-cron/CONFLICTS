@@ -1,0 +1,2 @@
+conflicts fcron &&
+conflicts vixie-cron
