@@ -1,12 +1,12 @@
           MODULE=rocksndiamonds
-         VERSION=4.4.2.1
+         VERSION=4.4.2.3
           SOURCE=$MODULE-$VERSION.tar.gz
    SOURCE_URL[0]=http://www.artsoft.org/RELEASES/unix/$MODULE
    SOURCE_URL[1]=http://ftp.ucsb.edu/pub/mirrors/linux/gentoo/distfiles
       SOURCE_VFY=sha1:
         WEB_SITE=http://www.artsoft.org/rocksndiamonds
          ENTERED=20040701
-         UPDATED=20220611
+         UPDATED=20220628
            SHORT="Arcade game like Boulderdash"
 
 cat <<EOF
