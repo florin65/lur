@@ -1,0 +1,15 @@
+          MODULE=python2-pyopenssl
+         VERSION=20.0.0
+          SOURCE=pyopenssl-$VERSION.tar.gz
+ SOURCE_URL_FULL=http://github.com/pyca/pyopenssl/archive/$VERSION.tar.gz
+      SOURCE_VFY=sha256:c3c27edae324f4ade903d61cf8c3056f4f7b410f2f69711126ca05cfcf34f1c1
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pyopenssl-$VERSION
+        WEB_SITE=http://github.com/pyca/pyopenssl/
+         ENTERED=20071004
+         UPDATED=20201128
+            TYPE=python2
+           SHORT="Python interface to the OpenSSL library"
+
+cat << EOF
+Python interface to the OpenSSL library
+EOF

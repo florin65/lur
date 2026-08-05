@@ -1,0 +1,16 @@
+          MODULE=python2-certifi
+         VERSION=2019.11.28
+          SOURCE=certifi-$VERSION.tar.gz
+      SOURCE_URL=https://pypi.io/packages/source/c/certifi/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/certifi-$VERSION
+      SOURCE_VFY=sha256:25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f
+        WEB_SITE=https://certifi.io/en/latest/
+            TYPE=python2
+         ENTERED=20181207
+         UPDATED=20191206
+           SHORT="A sanity-friendly HTTP client for Python"
+
+cat << EOF
+Python HTTP library with thread-safe connection pooling,
+file post support, sanity friendly, and more.
+EOF

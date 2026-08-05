@@ -1,0 +1,23 @@
+            MODULE=python2-twisted
+           VERSION=20.3.0
+            SOURCE=twisted-$VERSION.tar.gz
+  SOURCE_DIRECTORY=$BUILD_DIRECTORY/twisted-twisted-$VERSION
+        SOURCE_URL=http://github.com/twisted/twisted/archive/
+        SOURCE_VFY=sha256:64173c6a561b206bea4193f810ff6f26b549b34e3b581a34eba499669c798427
+          WEB_SITE=http://www.twistedmatrix.com/
+           ENTERED=20030227
+           UPDATED=20200320
+              TYPE=python2
+             SHORT="An event-driven networking framework for Python"
+
+cat << EOF
+Twisted is a framework, written in Python, for writing networked applications.
+It includes implementations of a number of commonly used network services such
+as a web server, an IRC chat server, a mail server, a relational database
+interface and an object broker.
+
+Developers can build applications using all of these services as well as custom
+services that they write themselves. Twisted also includes a user authentication
+system that controls access to services and provides services with user context
+information to implement their own security models.
+EOF

@@ -1,0 +1,15 @@
+          MODULE=python-isodate
+         VERSION=0.6.1
+          SOURCE=isodate-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/isodate-$VERSION
+      SOURCE_URL=https://files.pythonhosted.org/packages/source/i/isodate/
+      SOURCE_VFY=sha256:48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9
+        WEB_SITE=http://pypi.python.org/pypi/isodate
+            TYPE=python2
+         ENTERED=20180301
+         UPDATED=20220825
+           SHORT="An ISO 8601 date/time/duration parser and formatter"
+
+cat << EOF
+An ISO 8601 date/time/duration parser and formatter.
+EOF

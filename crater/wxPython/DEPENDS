@@ -1,0 +1,11 @@
+depends python
+depends python-setuptools
+depends python-sip
+depends python-pathlib2
+depends python-appdirs
+depends python-pytest
+depends cython
+depends python-beautifulsoup4
+depends gstreamer
+depends gtk+-3
+

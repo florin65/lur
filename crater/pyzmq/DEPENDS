@@ -1,0 +1,4 @@
+depends python
+depends python-wheel
+depends zeromq
+depends python-packaging

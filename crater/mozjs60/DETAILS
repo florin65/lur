@@ -1,0 +1,17 @@
+          MODULE=mozjs60
+         VERSION=60.8.0
+          SOURCE=mozjs-${VERSION}.tar.bz2
+      SOURCE_URL=$GNOME_URL/teams/releng/tarballs-needing-help/mozjs
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/mozjs-$VERSION
+      SOURCE_VFY=sha256:697331336c3d65b80ded9ca87b4a8ceb804e5342b476eaa133ac638102a9dc5d
+        WEB_SITE=http://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/24/
+         ENTERED=20200313
+         UPDATED=20200410
+           SHORT="JavaScript interpreter and libraries"
+
+cat << EOF
+This is SpiderMonkey, Mozilla's C implementation of JavaScript.
+SpiderMonkey is written in C and contains a compiler, interpreter, decompiler,
+garbage collector, and standard classes. It is intended to be embedded in other
+applications that provide host environments for JavaScript.
+EOF

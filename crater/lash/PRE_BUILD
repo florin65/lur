@@ -1,0 +1,7 @@
+default_pre_build &&
+
+patch -Np0 -i $SCRIPT_DIRECTORY/fix-manual-generation.patch &&
+
+sedit '25i #include <stdio.h>' clients/synth/lash.c &&
+
+autoreconf -fi

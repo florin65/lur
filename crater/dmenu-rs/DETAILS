@@ -1,0 +1,17 @@
+          MODULE=dmenu-rs
+         VERSION=5.5.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/Shizcow/dmenu-rs/archive/${VERSION}.tar.gz
+      SOURCE_VFY=sha256:
+76cb74d4e1b2c6efb8d598e18ccf4ecd9479f3b558b5a5f4c46a61364b579e4f
+        WEB_SITE=https://github.com/Shizcow/dmenu-rs/
+         ENTERED=20130518
+         UPDATED=20201214
+           SHORT="A suckless dynamic menu for X"
+
+cat << EOF
+dmenu is an efficient dynamic menu for X.
+dmenu-rs is a 1:1 port of dmenu rewritten in Rust. It looks, feels, and runs
+pixel-for-pixel exactly the same.
+It also has plugin support for easy modification.
+EOF

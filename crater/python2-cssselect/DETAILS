@@ -1,0 +1,19 @@
+          MODULE=python2-cssselect
+         VERSION=1.1.0
+          SOURCE=cssselect-$VERSION.tar.gz
+      SOURCE_URL=https://pypi.io/packages/source/c/cssselect/
+      SOURCE_VFY=sha256:f95f8dedd925fd8f54edb3d2dfb44c190d9d18512377d3c1e2388d16126879bc
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/cssselect-$VERSION
+        WEB_SITE=http://pypi.python.org/pypi/cssselect
+         ENTERED=20121227
+         UPDATED=20180811
+            TYPE=python2
+        REPLACES=cssselect
+           SHORT="Parse CSS3 selectors and create XPath expressions"
+
+cat << EOF
+cssselect parses CSS3 Selectors and translate them to XPath 1.0
+expressions. Such expressions can be used in lxml or another
+XPath engine to find the matching elements
+in an XML or HTML document.
+EOF

@@ -1,0 +1,15 @@
+          MODULE=python2-zope.interface
+         VERSION=4.7.1
+          SOURCE=zope.interface-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/zopefoundation/zope.interface/archive/$VERSION.tar.gz
+      SOURCE_VFY=sha256:e9bc1ee8d9d016475d593605b6314269cfb4c2af01188b9597e9732825303718
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/zope.interface-$VERSION
+        WEB_SITE=http://zope.org/Products/ZopeInterface/
+         ENTERED=20060505
+         UPDATED=20191115
+            TYPE=python2
+           SHORT="An interface package from Zope"
+
+cat << EOF
+An interface package from Zope.
+EOF

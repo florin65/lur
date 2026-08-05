@@ -1,0 +1,28 @@
+          MODULE=python2-pycurl
+         VERSION=7.43.0.6
+          SOURCE=pycurl-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pycurl-REL_${VERSION//./_}
+ SOURCE_URL_FULL=http://github.com/pycurl/pycurl/archive/REL_${VERSION//./_}.tar.gz
+      SOURCE_VFY=sha256:1c37a37f1ea5b422bb8b1b524f565ac927d23b7afad65ae13a7ebf7f65d7ab6c
+        WEB_SITE=http://pycurl.sourceforge.net/
+            TYPE=python2
+         ENTERED=20100502
+         UPDATED=20200902
+           SHORT="Python interface to libcurl"
+
+cat <<EOF
+PycURL can be used to fetch objects identified by a URL from a Python
+program, similar to the urllib  Python module. PycURL is mature,very
+fast, and supports a lot of features.
+Overview:
+
+* libcurl is a free and easy-to-use client-side URL transfer
+  library, supporting FTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP, ...
+
+* libcurl is highly portable, it builds and works identically on
+  numerous platforms, including Solaris, ..., Linux, ...
+
+* libcurl is free, thread-safe, IPv6 compatible, feature rich,
+  well supported, fast, thoroughly documented and is already used by
+  many known, big and successful companies and numerous applications.
+EOF

@@ -1,0 +1,13 @@
+          MODULE=pyzmq
+         VERSION=27.0.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://files.pythonhosted.org/packages/source/p/pyzmq/
+      SOURCE_VFY=sha256:b398dd713b18de89730447347e96a0240225e154db56e35b6bb8447ffdb07798
+        WEB_SITE=https://pypi.org/project/pyzmq/
+         ENTERED=20130529
+         UPDATED=20250829
+           SHORT="Python wrapper for zeromq"
+
+cat << EOF
+This provides python2 bindings for the zeromq library.
+EOF

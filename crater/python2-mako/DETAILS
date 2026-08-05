@@ -1,0 +1,22 @@
+          MODULE=python2-mako
+         VERSION=1.1.3
+          SOURCE=Mako-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Mako-$VERSION
+      SOURCE_URL=https://pypi.io/packages/source/M/Mako/
+      SOURCE_VFY=sha256:8195c8c1400ceb53496064314c6736719c6f25e7479cd24c77be3d9361cddc27
+        WEB_SITE=http://www.makotemplates.org/
+            TYPE=python2
+         ENTERED=20150512
+         UPDATED=20200530
+           SHORT="Python template library"
+
+cat << EOF
+Mako is a template library written in Python. It provides a familiar, non-XML
+syntax which compiles into Python modules for maximum performance. Mako's syntax
+and API borrows from the best ideas of many others, including Django and Jinja2
+templates, Cheetah, Myghty, and Genshi. Conceptually, Mako is an embedded Python
+(i.e. Python Server Page) language, which refines the familiar ideas of
+componentized layout and inheritance to produce one of the
+most straightforward and flexible models available, while also maintaining close
+ties to Python calling and scoping semantics.
+EOF

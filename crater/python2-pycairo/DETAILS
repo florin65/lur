@@ -1,0 +1,22 @@
+          MODULE=python2-pycairo
+
+# DO NOT TOUCH ANYMORE
+         VERSION=1.18.1
+# PYTHON2 SUPPORT HAS BEEN DROPPED
+
+          SOURCE=pycairo-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/pygobject/pycairo/archive/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:9c282449741f82c016d5682e150d4a17785fad273600ce59535ca0e0339ba9cc
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pycairo-$VERSION
+        WEB_SITE=http://cairographics.org/
+         ENTERED=20040506
+         UPDATED=20200224
+            TYPE=python2
+           SHORT="A multi-platform 2D vector graphics library"
+
+cat << EOF
+Cairo is a vector graphics library designed to provide high-quality display
+and print output. Currently supported output targets include the X Window
+System, OpenGL (via glitz), in-memory image buffers, and image files (PNG and
+PostScript).
+EOF

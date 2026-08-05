@@ -1,0 +1,15 @@
+          MODULE=python2-pillow
+         VERSION=6.2.1
+          SOURCE=Pillow-$VERSION.tar.gz
+ SOURCE_URL_FULL=http://github.com/python-pillow/Pillow/archive/$VERSION.tar.gz
+      SOURCE_VFY=sha256:7bf2d6bdb68fa6ccec15c0fd9aa20fac9641cd20dc6079344f5a6534e13a70f9
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Pillow-$VERSION
+        WEB_SITE=http://python-pillow.github.io/
+         ENTERED=20151226
+         UPDATED=20191202
+            TYPE=python2
+           SHORT="Python Imaging Library (PIL) fork"
+
+cat << EOF
+The friendly PIL fork.
+EOF

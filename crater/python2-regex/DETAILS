@@ -1,0 +1,16 @@
+#Python 2 is no longer supported. The last release that supported Python 2 was 2021.11.10.
+          MODULE=python2-regex
+         VERSION=2021.11.10
+          SOURCE=regex-$VERSION.tar.gz
+      SOURCE_URL=https://pypi.io/packages/source/r/regex/
+      SOURCE_VFY=sha256:f341ee2df0999bfdf7a95e448075effe0db212a59387de1a70690e4acb03d4c6
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/regex-$VERSION
+        WEB_SITE=https://pypi.org/project/regex/
+            TYPE=python2
+         ENTERED=20181027
+         UPDATED=20230203
+           SHORT="An alternative python regular expression module"
+
+cat << EOF
+An alternative python regular expression module.
+EOF

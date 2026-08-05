@@ -1,0 +1,16 @@
+          MODULE=python2-pip
+         VERSION=20.3.4
+          SOURCE=pip-$VERSION.tar.gz
+      SOURCE_URL=https://pypi.io/packages/source/p/pip/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pip-$VERSION
+      SOURCE_VFY=sha256:6773934e5f5fc3eaa8c5a44949b5b924fc122daa0a8aa9f80c835b4ca2a543fc
+        WEB_SITE=http://pypi.python.org/pypi/pip
+         ENTERED=20130415
+         UPDATED=20210127
+            TYPE=python2
+        REPLACES=pip
+           SHORT="Manage and install Python packages"
+
+cat << EOF
+A tool for installing and managing Python packages.
+EOF
