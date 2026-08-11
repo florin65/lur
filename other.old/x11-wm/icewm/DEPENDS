@@ -1,1 +1,11 @@
-depends  freetype2
+depends alsa-lib
+depends imlib2
+depends librsvg
+depends freetype2
+depends libXcomposite
+depends libXcursor
+depends libXdamage
+depends libXinerama
+depends libXrandr
+depends asciidoctor
+depends mkfontscale

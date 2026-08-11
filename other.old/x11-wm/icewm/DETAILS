@@ -1,11 +1,11 @@
           MODULE=icewm
-         VERSION=3.8.0
+         VERSION=4.1.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE
       SOURCE_VFY=sha256:
         WEB_SITE=http://www.icewm.org
          ENTERED=20010922
-         UPDATED=20250709
+         UPDATED=20260811
            SHORT="X window manager"
 
 cat << EOF
